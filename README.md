@@ -2,7 +2,7 @@
 
 > 프론트엔드가 없는 LayerZero V2 OFT 토큰의 경로를 온체인에서 직접 검증하고, 기본값 **dry-run**으로 수수료까지 계산하는 로컬 브릿지 대시보드.
 
-**데모:** https://oft-bridge.pages.dev
+**데모:** https://geraoft-bridge.com
 
 > [!WARNING]
 > **감사(audit)받지 않은 코드입니다. 사용 책임은 전적으로 사용자에게 있습니다.**
