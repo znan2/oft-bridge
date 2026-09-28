@@ -1,0 +1,99 @@
+{
+  "sourceUrl": "https://metadata.layerzero-api.com/v1/metadata",
+  "generatedAt": "2026-09-28T04:06:24.569Z",
+  "chains": [
+    {
+      "id": 11155111,
+      "eid": 40161,
+      "key": "sepolia-testnet",
+      "name": "Sepolia",
+      "shortName": "Sepolia",
+      "symbol": "ETH",
+      "decimals": 18,
+      "explorer": "https://sepolia.etherscan.io",
+      "rpcs": [
+        "https://ethereum-sepolia-rpc.publicnode.com",
+        "https://sepolia.gateway.tenderly.co",
+        "https://gateway.tenderly.co/public/sepolia"
+      ],
+      "feeModel": "standard",
+      "protocol": {
+        "endpoint": "0x6edce65403992e310a62460808c4b910d972f10f",
+        "sendLibrary": "0xcc1ae8cf5d3904cef3360a9532b477529b177cce",
+        "receiveLibrary": "0xdaf00f5ee2158dd58e0d3857851c432e34a3a851",
+        "blockedLibrary": "0x0c77d8d771ab35e2e184e7ce127f19ced31ff8c0",
+        "deadDvn": "0x8b450b0acf56e1b0e25c581bb04fbabeeb0644b8",
+        "executors": [
+          "0x718b92b5cb0a5552039b593faf724d182a881eda",
+          "0x34a561197e4eae356d41b0b02c59f12a5c576c5a"
+        ]
+      }
+    },
+    {
+      "id": 84532,
+      "eid": 40245,
+      "key": "base-sepolia",
+      "name": "Base Sepolia",
+      "shortName": "Base Sepolia",
+      "symbol": "ETH",
+      "decimals": 18,
+      "explorer": "https://sepolia.basescan.org",
+      "rpcs": [
+        "https://base-sepolia-rpc.publicnode.com",
+        "https://base-sepolia.gateway.tenderly.co",
+        "https://base-sepolia.drpc.org"
+      ],
+      "feeModel": "op-stack",
+      "protocol": {
+        "endpoint": "0x6edce65403992e310a62460808c4b910d972f10f",
+        "sendLibrary": "0xc1868e054425d378095a003ecba3823a5d0135c9",
+        "receiveLibrary": "0x12523de19dc41c91f7d2093e0cfbb76b17012c8d",
+        "blockedLibrary": "0x0c77d8d771ab35e2e184e7ce127f19ced31ff8c0",
+        "deadDvn": "0x78551adc2553ef1858a558f5300f7018aad2fa7e",
+        "executors": [
+          "0x8a3d588d9f6ac041476b094f97ff94ec30169d3d",
+          "0xd8c74c92a59c2b5b6390ed54f13193c59249e561"
+        ]
+      }
+    },
+    {
+      "id": 421614,
+      "eid": 40231,
+      "key": "arbitrum-sepolia",
+      "name": "Arbitrum Sepolia",
+      "shortName": "Arbitrum Sepolia",
+      "symbol": "ETH",
+      "decimals": 18,
+      "explorer": "https://sepolia.arbiscan.io",
+      "rpcs": [
+        "https://arbitrum-sepolia-rpc.publicnode.com",
+        "https://api.zan.top/arb-sepolia",
+        "https://arbitrum-sepolia.drpc.org"
+      ],
+      "feeModel": "arbitrum",
+      "protocol": {
+        "endpoint": "0x6edce65403992e310a62460808c4b910d972f10f",
+        "sendLibrary": "0x4f7cd4da19abb31b0ec98b9066b9e857b1bf9c0e",
+        "receiveLibrary": "0x75db67cdab2824970131d5aa9cecfc9f69c69636",
+        "blockedLibrary": "0x0c77d8d771ab35e2e184e7ce127f19ced31ff8c0",
+        "deadDvn": "0xa85be08a6ce2771c730661766aacf2c8bb24c611",
+        "executors": [
+          "0x5df3a1cebbd9c8ba7f8df51fd632a9aef8308897",
+          "0x569aa8bdac7aa67837749bdbdb74ad9ee4b073bf"
+        ]
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "key": "bsc-testnet",
+      "id": 97,
+      "reason": "incomplete ULN302 deployment"
+    },
+    {
+      "key": "optimism-sepolia",
+      "id": 11155420,
+      "reason": "incomplete ULN302 deployment"
+    }
+  ]
+}

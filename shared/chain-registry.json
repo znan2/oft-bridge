@@ -1,0 +1,3263 @@
+{
+  "sourceUrl": "https://metadata.layerzero-api.com/v1/metadata",
+  "generatedAt": "2026-09-06T15:18:47.938Z",
+  "chains": [
+    {
+      "id": 56,
+      "eid": 30102,
+      "key": "bsc",
+      "name": "BNB Smart Chain",
+      "shortName": "BSC",
+      "symbol": "BNB",
+      "decimals": 18,
+      "explorer": "https://bscscan.com",
+      "rpcs": [
+        "https://bsc-rpc.publicnode.com",
+        "https://bsc-dataseed.bnbchain.org"
+      ],
+      "feeModel": "standard",
+      "protocol": {
+        "endpoint": "0x1a44076050125825900e736c501f859c50fe728c",
+        "sendLibrary": "0x9f8c645f2d0b2159767bd6e0839de4be49e823de",
+        "receiveLibrary": "0xb217266c3a98c8b2709ee26836c98cf12f6ccec1",
+        "blockedLibrary": "0x1ccbf0db9c192d969de57e25b3ff09a25bb1d862",
+        "deadDvn": "0xe9b5e4f9395a60799f4f608ba3abebdfc0ee6d9c",
+        "executors": [
+          "0x3ebd570ed38b1b3b4bc886999fcf507e9d584859",
+          "0x821a99c061c00f6c9da0302aaec348945ba40284"
+        ]
+      }
+    },
+    {
+      "id": 1,
+      "eid": 30101,
+      "key": "ethereum",
+      "name": "Ethereum Mainnet",
+      "shortName": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 18,
+      "explorer": "https://etherscan.io",
+      "rpcs": [
+        "https://ethereum-rpc.publicnode.com",
+        "https://eth.drpc.org",
+        "https://ethereum.publicnode.com"
+      ],
+      "feeModel": "standard",
+      "protocol": {
+        "endpoint": "0x1a44076050125825900e736c501f859c50fe728c",
+        "sendLibrary": "0xbb2ea70c9e858123480642cf96acbcce1372dce1",
+        "receiveLibrary": "0xc02ab410f0734efa3f14628780e6e695156024c2",
+        "blockedLibrary": "0x1ccbf0db9c192d969de57e25b3ff09a25bb1d862",
+        "deadDvn": "0x747c741496a507e4b404b50463e691a8d692f6ac",
+        "executors": [
+          "0x173272739bd7aa6e4e214714048a9fe699453059",
+          "0xbf2e102fb382d6ec52823c8f81a45e9caa951320"
+        ]
+      }
+    },
+    {
+      "id": 16661,
+      "eid": 30388,
+      "key": "og",
+      "name": "0G Mainnet",
+      "shortName": "0G Mainnet",
+      "symbol": "0G",
+      "decimals": 18,
+      "explorer": "https://chainscan.0g.ai",
+      "rpcs": [
+        "https://evmrpc.0g.ai"
+      ],
+      "feeModel": "unreviewed",
+      "sourceRestriction": "조회 전용 · 이 체인의 수수료/트랜잭션 방식은 아직 검토하지 않아 출발 전송을 지원하지 않습니다.",
+      "protocol": {
+        "endpoint": "0xcb566e3b6934fa77258d68ea18e931fa75e1aaaa",
+        "sendLibrary": "0xe1844c5d63a9543023008d332bd3d2e6f1fe1043",
+        "receiveLibrary": "0x2367325334447c5e1e0f1b3a6fb947b262f58312",
+        "blockedLibrary": "0x26463a4af811c256f669524ec2dc1ba7e7a83c37",
+        "deadDvn": "0x9c061c9a4782294eef65ef28cb88233a987f4bdd",
+        "executors": [
+          "0xa20db4ffe74a31d17fc24bd32a7dd7555441058e",
+          "0x4b80f7d25c451d204b1c93d9bdf2ab3b04f3ea4a"
+        ]
+      }
+    },
+    {
+      "id": 2741,
+      "eid": 30324,
+      "key": "abstract",
+      "name": "Abstract",
+      "shortName": "Abstract",
+      "symbol": "ETH",
+      "decimals": 18,
+      "explorer": "https://abscan.org",
+      "rpcs": [
+        "https://abstract.drpc.org",
+        "https://api.mainnet.abs.xyz",
+        "https://abstract.api.onfinality.io/public"
+      ],
+      "feeModel": "unreviewed",
+      "sourceRestriction": "조회 전용 · 이 체인의 수수료/트랜잭션 방식은 아직 검토하지 않아 출발 전송을 지원하지 않습니다.",
+      "protocol": {
+        "endpoint": "0x5c6cff4b7c49805f8295ff73c204ac83f3bc4ae7",
+        "sendLibrary": "0x166cab679ebdb0853055522d3b523621b94029a1",
+        "receiveLibrary": "0x9d799c1935c51ca399e6465ed9841debccec413e",
+        "blockedLibrary": "0x3258287147fb7887d8a643006e26e19368057377",
+        "deadDvn": "0x06e56abd0cb3c88880644ba3c534a498ca18e5c8",
+        "executors": [
+          "0x643e1471f37c4680df30cf0c540cd379a0ff58a5",
+          "0x068ec1f0bd53cf86923bbb0986046be6af3f5922"
+        ]
+      }
+    },
+    {
+      "id": 69000,
+      "eid": 30372,
+      "key": "animechain",
+      "name": "animechain",
+      "shortName": "animechain",
+      "symbol": "ANIME",
+      "decimals": 18,
+      "explorer": "https://explorer-animechain-39xf6m45e3.t.conduit.xyz",
+      "rpcs": [],
+      "feeModel": "unreviewed",
+      "sourceRestriction": "조회 전용 · 이 체인의 수수료/트랜잭션 방식은 아직 검토하지 않아 출발 전송을 지원하지 않습니다.",
+      "protocol": {
+        "endpoint": "0x6f475642a6e85809b1c36fa62763669b1b48dd5b",
+        "sendLibrary": "0xc39161c743d0307eb9bcc9fef03eeb9dc4802de7",
+        "receiveLibrary": "0xe1844c5d63a9543023008d332bd3d2e6f1fe1043",
+        "blockedLibrary": "0xc1ce56b2099ca68720592583c7984cab4b6d7e7a",
+        "deadDvn": "0x6788f52439aca6bff597d3eec2dc9a44b8fee842",
+        "executors": [
+          "0x4208d6e27538189bb48e603d6123a94b8abe0a0b",
+          "0x41bdb4aa4a63a5b2efc531858d3118392b1a1c3d"
+        ]
+      }
+    },
+    {
+      "id": 33139,
+      "eid": 30312,
+      "key": "ape",
+      "name": "ApeChain",
+      "shortName": "ApeChain",
+      "symbol": "APE",
+      "decimals": 18,
+      "explorer": "https://apescan.io",
+      "rpcs": [
+        "https://rpc.apechain.com",
+        "https://apechain.drpc.org",
+        "https://rpc.apechain.com/http"
+      ],
+      "feeModel": "arbitrum",
+      "protocol": {
+        "endpoint": "0x6f475642a6e85809b1c36fa62763669b1b48dd5b",
+        "sendLibrary": "0xc39161c743d0307eb9bcc9fef03eeb9dc4802de7",
+        "receiveLibrary": "0xe1844c5d63a9543023008d332bd3d2e6f1fe1043",
+        "blockedLibrary": "0xc1ce56b2099ca68720592583c7984cab4b6d7e7a",
+        "deadDvn": "0x9c061c9a4782294eef65ef28cb88233a987f4bdd",
+        "executors": [
+          "0xcce466a522984415bc91338c232d98869193d46e",
+          "0xa20db4ffe74a31d17fc24bd32a7dd7555441058e"
+        ]
+      }
+    },
+    {
+      "id": 9069,
+      "eid": 30384,
+      "key": "apexfusionnexus",
+      "name": "apexfusionnexus",
+      "shortName": "apexfusionnexus",
+      "symbol": "AP3X",
+      "decimals": 18,
+      "explorer": "https://nexus.apexscan.org",
+      "rpcs": [
+        "https://rpc.nexus.mainnet.apexfusion.org"
+      ],
+      "feeModel": "unreviewed",
+      "sourceRestriction": "조회 전용 · 이 체인의 수수료/트랜잭션 방식은 아직 검토하지 않아 출발 전송을 지원하지 않습니다.",
+      "protocol": {
+        "endpoint": "0x6f475642a6e85809b1c36fa62763669b1b48dd5b",
+        "sendLibrary": "0xc39161c743d0307eb9bcc9fef03eeb9dc4802de7",
+        "receiveLibrary": "0xe1844c5d63a9543023008d332bd3d2e6f1fe1043",
+        "blockedLibrary": "0xc1ce56b2099ca68720592583c7984cab4b6d7e7a",
+        "deadDvn": "0x6788f52439aca6bff597d3eec2dc9a44b8fee842",
+        "executors": [
+          "0x4208d6e27538189bb48e603d6123a94b8abe0a0b",
+          "0x41bdb4aa4a63a5b2efc531858d3118392b1a1c3d"
+        ]
+      }
+    },
+    {
+      "id": 42161,
+      "eid": 30110,
+      "key": "arbitrum",
+      "name": "Arbitrum One",
+      "shortName": "Arbitrum One",
+      "symbol": "ETH",
+      "decimals": 18,
+      "explorer": "https://arbiscan.io",
+      "rpcs": [
+        "https://arbitrum-one-rpc.publicnode.com",
+        "https://api.zan.top/arb-one",
+        "https://arbitrum.drpc.org"
+      ],
+      "feeModel": "arbitrum",
+      "protocol": {
+        "endpoint": "0x1a44076050125825900e736c501f859c50fe728c",
+        "sendLibrary": "0x975bcd720be66659e3eb3c0e4f1866a3020e493a",
+        "receiveLibrary": "0x7b9e184e07a6ee1ac23eae0fe8d6be2f663f05e6",
+        "blockedLibrary": "0x1ccbf0db9c192d969de57e25b3ff09a25bb1d862",
+        "deadDvn": "0x758c419533ad64ce9d3413bc8d3a97b026098ec1",
+        "executors": [
+          "0x31cae3b7fb82d847621859fb1585353c5720660d",
+          "0x6862ded20594da16b7cbb282894fae23043a32bc"
+        ]
+      }
+    },
+    {
+      "id": 5042,
+      "eid": 30417,
+      "key": "arc",
+      "name": "Arc",
+      "shortName": "Arc",
+      "symbol": "USDC",
+      "decimals": 18,
+      "explorer": "https://arcscan.app",
+      "rpcs": [],
+      "feeModel": "unreviewed",
+      "sourceRestriction": "조회 전용 · 이 체인의 수수료/트랜잭션 방식은 아직 검토하지 않아 출발 전송을 지원하지 않습니다.",
+      "protocol": {
+        "endpoint": "0x6f475642a6e85809b1c36fa62763669b1b48dd5b",
+        "sendLibrary": "0xc39161c743d0307eb9bcc9fef03eeb9dc4802de7",
+        "receiveLibrary": "0xe1844c5d63a9543023008d332bd3d2e6f1fe1043",
+        "blockedLibrary": "0xc1ce56b2099ca68720592583c7984cab4b6d7e7a",
+        "deadDvn": "0x6788f52439aca6bff597d3eec2dc9a44b8fee842",
+        "executors": [
+          "0x4208d6e27538189bb48e603d6123a94b8abe0a0b",
+          "0x41bdb4aa4a63a5b2efc531858d3118392b1a1c3d"
+        ]
+      }
+    },
+    {
+      "id": 592,
+      "eid": 30210,
+      "key": "astar",
+      "name": "Astar",
+      "shortName": "Astar",
+      "symbol": "ASTR",
+      "decimals": 18,
+      "explorer": "https://blockscout.com/astar",
+      "rpcs": [
+        "https://1rpc.io/astr",
+        "https://astar.api.onfinality.io/public",
+        "https://astar.public.curie.radiumblock.co/http"
+      ],
+      "feeModel": "unreviewed",
+      "sourceRestriction": "조회 전용 · 이 체인의 수수료/트랜잭션 방식은 아직 검토하지 않아 출발 전송을 지원하지 않습니다.",
+      "protocol": {
+        "endpoint": "0x1a44076050125825900e736c501f859c50fe728c",
+        "sendLibrary": "0x30c3074669d866933db74df1fbe4b3703e6ec139",
+        "receiveLibrary": "0xf08f13c080fcc530b1c21de827c27b7b66874ddc",
+        "blockedLibrary": "0x1ccbf0db9c192d969de57e25b3ff09a25bb1d862",
+        "deadDvn": "0x6626d0739b2b04b70b372394274eb77cad0824b2",
+        "executors": [
+          "0x3c5575898f59c097681d1fc239c2c6ad36b7b41c",
+          "0x1b8ec4c50b0905334f6f73d1c1a64ba6e15bdab8"
+        ]
+      }
+    },
+    {
+      "id": 904,
+      "eid": 30413,
+      "key": "ault",
+      "name": "ault",
+      "shortName": "ault",
+      "symbol": "AULT",
+      "decimals": 18,
+      "explorer": "https://main-evm-explorer.cloud.aultblockchain.xyz",
+      "rpcs": [],
+      "feeModel": "unreviewed",
+      "sourceRestriction": "조회 전용 · 이 체인의 수수료/트랜잭션 방식은 아직 검토하지 않아 출발 전송을 지원하지 않습니다.",
+      "protocol": {
+        "endpoint": "0x6f475642a6e85809b1c36fa62763669b1b48dd5b",
+        "sendLibrary": "0xc39161c743d0307eb9bcc9fef03eeb9dc4802de7",
+        "receiveLibrary": "0xe1844c5d63a9543023008d332bd3d2e6f1fe1043",
+        "blockedLibrary": "0xc1ce56b2099ca68720592583c7984cab4b6d7e7a",
+        "deadDvn": "0x6788f52439aca6bff597d3eec2dc9a44b8fee842",
+        "executors": [
+          "0x4208d6e27538189bb48e603d6123a94b8abe0a0b",
+          "0x41bdb4aa4a63a5b2efc531858d3118392b1a1c3d"
+        ]
+      }
+    },
+    {
+      "id": 1313161554,
+      "eid": 30211,
+      "key": "aurora",
+      "name": "Aurora",
+      "shortName": "Aurora",
+      "symbol": "ETH",
+      "decimals": 18,
+      "explorer": "https://explorer.mainnet.aurora.dev",
+      "rpcs": [
+        "https://1rpc.io/aurora",
+        "https://aurora.drpc.org",
+        "https://mainnet.aurora.dev"
+      ],
+      "feeModel": "unreviewed",
+      "sourceRestriction": "조회 전용 · 이 체인의 수수료/트랜잭션 방식은 아직 검토하지 않아 출발 전송을 지원하지 않습니다.",
+      "protocol": {
+        "endpoint": "0x1a44076050125825900e736c501f859c50fe728c",
+        "sendLibrary": "0x1ace9dd1bc743ad036ef2d92af42ca70a1159df5",
+        "receiveLibrary": "0x000cc1a759bc3a15e664ed5379e321be5de1c9b6",
+        "blockedLibrary": "0x1ccbf0db9c192d969de57e25b3ff09a25bb1d862",
+        "deadDvn": "0x412cec9fc5044bcba04ed6875729540ce35c6c6f",
+        "executors": [
+          "0xa2b402ffe8dd7460a8b425644b6b9f50667f0a61",
+          "0x0b5e5452d0c9da1bb5fb0664f48313e9667d7820"
+        ]
+      }
+    },
+    {
+      "id": 43114,
+      "eid": 30106,
+      "key": "avalanche",
+      "name": "Avalanche",
+      "shortName": "Avalanche",
+      "symbol": "AVAX",
+      "decimals": 18,
+      "explorer": "https://snowscan.xyz",
+      "rpcs": [
+        "https://avalanche-c-chain-rpc.publicnode.com",
+        "https://1rpc.io/avax/c",
+        "https://api.zan.top/avax-mainnet/ext/bc/C/rpc"
+      ],
+      "feeModel": "standard",
+      "protocol": {
+        "endpoint": "0x1a44076050125825900e736c501f859c50fe728c",
+        "sendLibrary": "0x197d1333dea5fe0d6600e9b396c7f1b1cfcc558a",
+        "receiveLibrary": "0xbf3521d309642fa9b1c91a08609505ba09752c61",
+        "blockedLibrary": "0x1ccbf0db9c192d969de57e25b3ff09a25bb1d862",
+        "deadDvn": "0x90cca24d1338bd284c25776d9c12f96764bde5e1",
+        "executors": [
+          "0x90e595783e43eb89ff07f63d27b8430e6b44bd9c",
+          "0x45d7c6808de24f70480d5947ce2081ba8c9c57f5"
+        ]
+      }
+    },
+    {
+      "id": 8453,
+      "eid": 30184,
+      "key": "base",
+      "name": "Base",
+      "shortName": "Base",
+      "symbol": "ETH",
+      "decimals": 18,
+      "explorer": "https://basescan.org",
+      "rpcs": [
+        "https://base-rpc.publicnode.com",
+        "https://1rpc.io/base",
+        "https://api.zan.top/base-mainnet"
+      ],
+      "feeModel": "op-stack",
+      "protocol": {
+        "endpoint": "0x1a44076050125825900e736c501f859c50fe728c",
+        "sendLibrary": "0xb5320b0b3a13cc860893e2bd79fcd7e13484dda2",
+        "receiveLibrary": "0xc70ab6f32772f59fbfc23889caf4ba3376c84baf",
+        "blockedLibrary": "0x1ccbf0db9c192d969de57e25b3ff09a25bb1d862",
+        "deadDvn": "0x6498b0632f3834d7647367334838111c8c889703",
+        "executors": [
+          "0x2cca08ae69e0c44b18a57ab2a87644234daebae4",
+          "0x125bd5c6c5066dcb4bb448b6ea8b9234ed60e160"
+        ]
+      }
+    },
+    {
+      "id": 4337,
+      "eid": 30198,
+      "key": "beam",
+      "name": "Beam",
+      "shortName": "Beam",
+      "symbol": "BEAM",
+      "decimals": 18,
+      "explorer": "https://subnets.avax.network/beam",
+      "rpcs": [
+        "https://subnets.avax.network/beam/mainnet/rpc",
+        "https://build.onbeam.com/rpc"
+      ],
+      "feeModel": "standard",
+      "protocol": {
+        "endpoint": "0x1a44076050125825900e736c501f859c50fe728c",
+        "sendLibrary": "0x763bfce1ed335885d0eec1f182fe6e6b85babc92",
+        "receiveLibrary": "0xe767e048221197a2b590ceb5c63c3aad8ebf87ea",
+        "blockedLibrary": "0x1ccbf0db9c192d969de57e25b3ff09a25bb1d862",
+        "deadDvn": "0x690b1857eaa8c55850547d7c22148c0b99a71dcd",
+        "executors": [
+          "0x9bdf3ae7e2e3d211811e5e782a808ca0a75bf1fc",
+          "0xe01f3c1cd14f39303d175c31c16f58707b28976b"
+        ]
+      }
+    },
+    {
+      "id": 80094,
+      "eid": 30362,
+      "key": "bera",
+      "name": "Berachain",
+      "shortName": "Berachain",
+      "symbol": "BERA",
+      "decimals": 18,
+      "explorer": "https://berascan.com",
+      "rpcs": [
+        "https://berachain-rpc.publicnode.com",
+        "https://berachain.drpc.org",
+        "https://rpc.berachain-apis.com"
+      ],
+      "feeModel": "standard",
+      "protocol": {
+        "endpoint": "0x6f475642a6e85809b1c36fa62763669b1b48dd5b",
+        "sendLibrary": "0xc39161c743d0307eb9bcc9fef03eeb9dc4802de7",
+        "receiveLibrary": "0xe1844c5d63a9543023008d332bd3d2e6f1fe1043",
+        "blockedLibrary": "0xc1ce56b2099ca68720592583c7984cab4b6d7e7a",
+        "deadDvn": "0x6788f52439aca6bff597d3eec2dc9a44b8fee842",
+        "executors": [
+          "0x4208d6e27538189bb48e603d6123a94b8abe0a0b",
+          "0x41bdb4aa4a63a5b2efc531858d3118392b1a1c3d"
+        ]
+      }
+    },
+    {
+      "id": 81457,
+      "eid": 30243,
+      "key": "blast",
+      "name": "Blast",
+      "shortName": "Blast",
+      "symbol": "ETH",
+      "decimals": 18,
+      "explorer": "https://blastscan.io",
+      "rpcs": [
+        "https://blast-rpc.publicnode.com",
+        "https://blast.drpc.org",
+        "https://blast-public.nodies.app"
+      ],
+      "feeModel": "op-stack",
+      "protocol": {
+        "endpoint": "0x1a44076050125825900e736c501f859c50fe728c",
+        "sendLibrary": "0xc1b621b18187f74c8f6d52a6f709dd2780c09821",
+        "receiveLibrary": "0x377530cda84dfb2673bf4d145dcf0c4d7fdcb5b6",
+        "blockedLibrary": "0x1ccbf0db9c192d969de57e25b3ff09a25bb1d862",
+        "deadDvn": "0x73dd395e80a2dd6d88db11e69f15d534d182f019",
+        "executors": [
+          "0x4208d6e27538189bb48e603d6123a94b8abe0a0b",
+          "0x41bdb4aa4a63a5b2efc531858d3118392b1a1c3d"
+        ]
+      }
+    },
+    {
+      "id": 484,
+      "eid": 30381,
+      "key": "camp",
+      "name": "camp",
+      "shortName": "camp",
+      "symbol": "CAMP",
+      "decimals": 18,
+      "explorer": "https://camp.cloud.blockscout.com",
+      "rpcs": [
+        "https://rpc.camp.raas.gelato.cloud"
+      ],
+      "feeModel": "unreviewed",
+      "sourceRestriction": "조회 전용 · 이 체인의 수수료/트랜잭션 방식은 아직 검토하지 않아 출발 전송을 지원하지 않습니다.",
+      "protocol": {
+        "endpoint": "0x6f475642a6e85809b1c36fa62763669b1b48dd5b",
+        "sendLibrary": "0xc39161c743d0307eb9bcc9fef03eeb9dc4802de7",
+        "receiveLibrary": "0xe1844c5d63a9543023008d332bd3d2e6f1fe1043",
+        "blockedLibrary": "0xc1ce56b2099ca68720592583c7984cab4b6d7e7a",
+        "deadDvn": "0xfd76d9cb0bac839725ab79127e7411fe71b1e3ca",
+        "executors": [
+          "0x4208d6e27538189bb48e603d6123a94b8abe0a0b",
+          "0x41bdb4aa4a63a5b2efc531858d3118392b1a1c3d"
+        ]
+      }
+    },
+    {
+      "id": 42220,
+      "eid": 30125,
+      "key": "celo",
+      "name": "Celo",
+      "shortName": "Celo",
+      "symbol": "CELO",
+      "decimals": 18,
+      "explorer": "https://explorer.celo.org",
+      "rpcs": [
+        "https://rpc.ankr.com/celo",
+        "https://forno.celo.org",
+        "https://celo.drpc.org"
+      ],
+      "feeModel": "op-stack",
+      "protocol": {
+        "endpoint": "0x1a44076050125825900e736c501f859c50fe728c",
+        "sendLibrary": "0x42b4e9c6495b4cfdae024b1ec32e09f28027620e",
+        "receiveLibrary": "0xadded4478b423d991c21e525cd3638fbce1aad17",
+        "blockedLibrary": "0x1ccbf0db9c192d969de57e25b3ff09a25bb1d862",
+        "deadDvn": "0xc67f8f84d00a4908581b235f1abe0fe3afc8126f",
+        "executors": [
+          "0x1ddbaf8b75f2291a97c22428afef411b7bb19e28",
+          "0x552661d1c85f256e008ee2315103c80fd1e298df"
+        ]
+      }
+    },
+    {
+      "id": 88888,
+      "eid": 30409,
+      "key": "chiliz",
+      "name": "Chiliz Chain",
+      "shortName": "Chiliz Chain",
+      "symbol": "CHZ",
+      "decimals": 18,
+      "explorer": "https://chiliscan.com",
+      "rpcs": [
+        "https://rpc.ankr.com/chiliz",
+        "https://chiliz-mainnet.gateway.tatum.io",
+        "https://rpc.chiliz.com"
+      ],
+      "feeModel": "standard",
+      "protocol": {
+        "endpoint": "0x6f475642a6e85809b1c36fa62763669b1b48dd5b",
+        "sendLibrary": "0xc39161c743d0307eb9bcc9fef03eeb9dc4802de7",
+        "receiveLibrary": "0xe1844c5d63a9543023008d332bd3d2e6f1fe1043",
+        "blockedLibrary": "0xc1ce56b2099ca68720592583c7984cab4b6d7e7a",
+        "deadDvn": "0x6788f52439aca6bff597d3eec2dc9a44b8fee842",
+        "executors": [
+          "0x4208d6e27538189bb48e603d6123a94b8abe0a0b",
+          "0x41bdb4aa4a63a5b2efc531858d3118392b1a1c3d"
+        ]
+      }
+    },
+    {
+      "id": 4114,
+      "eid": 30403,
+      "key": "citrea",
+      "name": "Citrea Mainnet",
+      "shortName": "Citrea Mainnet",
+      "symbol": "cBTC",
+      "decimals": 18,
+      "explorer": "https://explorer.mainnet.citrea.xyz",
+      "rpcs": [
+        "https://rpc.mainnet.citrea.xyz"
+      ],
+      "feeModel": "unreviewed",
+      "sourceRestriction": "조회 전용 · 이 체인의 수수료/트랜잭션 방식은 아직 검토하지 않아 출발 전송을 지원하지 않습니다.",
+      "protocol": {
+        "endpoint": "0x6f475642a6e85809b1c36fa62763669b1b48dd5b",
+        "sendLibrary": "0xc39161c743d0307eb9bcc9fef03eeb9dc4802de7",
+        "receiveLibrary": "0xc1b621b18187f74c8f6d52a6f709dd2780c09821",
+        "blockedLibrary": "0xc1ce56b2099ca68720592583c7984cab4b6d7e7a",
+        "deadDvn": "0x9c061c9a4782294eef65ef28cb88233a987f4bdd",
+        "executors": [
+          "0xa20db4ffe74a31d17fc24bd32a7dd7555441058e",
+          "0x4b80f7d25c451d204b1c93d9bdf2ab3b04f3ea4a"
+        ]
+      }
+    },
+    {
+      "id": 81224,
+      "eid": 30323,
+      "key": "codex",
+      "name": "Codex",
+      "shortName": "Codex",
+      "symbol": "ETH",
+      "decimals": 18,
+      "explorer": "https://explorer.codex.xyz",
+      "rpcs": [
+        "https://rpc.codex.xyz"
+      ],
+      "feeModel": "unreviewed",
+      "sourceRestriction": "조회 전용 · 이 체인의 수수료/트랜잭션 방식은 아직 검토하지 않아 출발 전송을 지원하지 않습니다.",
+      "protocol": {
+        "endpoint": "0xcb566e3b6934fa77258d68ea18e931fa75e1aaaa",
+        "sendLibrary": "0xe1844c5d63a9543023008d332bd3d2e6f1fe1043",
+        "receiveLibrary": "0x2367325334447c5e1e0f1b3a6fb947b262f58312",
+        "blockedLibrary": "0x26463a4af811c256f669524ec2dc1ba7e7a83c37",
+        "deadDvn": "0xce8358bc28dd8296ce8caf1cd2b44787abd65887",
+        "executors": [
+          "0x4208d6e27538189bb48e603d6123a94b8abe0a0b",
+          "0x41bdb4aa4a63a5b2efc531858d3118392b1a1c3d"
+        ]
+      }
+    },
+    {
+      "id": 1030,
+      "eid": 30212,
+      "key": "conflux",
+      "name": "Conflux eSpace",
+      "shortName": "Conflux eSpace",
+      "symbol": "CFX",
+      "decimals": 18,
+      "explorer": "https://evm.confluxscan.org",
+      "rpcs": [
+        "https://conflux-espace.blockpi.network/v1/rpc/public",
+        "https://conflux-espace-public.unifra.io",
+        "https://evm.confluxrpc.com"
+      ],
+      "feeModel": "standard",
+      "protocol": {
+        "endpoint": "0x1a44076050125825900e736c501f859c50fe728c",
+        "sendLibrary": "0xb360a579dc6f77d6a3e8710a9d983811129c428d",
+        "receiveLibrary": "0x16cc4ef7c128d7fea96cf46ffd9dd20f76170347",
+        "blockedLibrary": "0x1ccbf0db9c192d969de57e25b3ff09a25bb1d862",
+        "deadDvn": "0x3e7647e24553d486ed1b1db94b86c7677ea9ab65",
+        "executors": [
+          "0x07dd1bf9f684d81f59b6a6760438d383ad755355",
+          "0x3e9a1d9ac31b703ac86874395a2410e123902ae9"
+        ]
+      }
+    },
+    {
+      "id": 37,
+      "eid": 30216,
+      "key": "xpla",
+      "name": "CONX Chain",
+      "shortName": "CONX Chain",
+      "symbol": "XPLA",
+      "decimals": 18,
+      "explorer": "https://explorer.xpla.io/mainnet",
+      "rpcs": [
+        "https://dimension-evm-rpc.xpla.dev"
+      ],
+      "feeModel": "unreviewed",
+      "sourceRestriction": "조회 전용 · 이 체인의 수수료/트랜잭션 방식은 아직 검토하지 않아 출발 전송을 지원하지 않습니다.",
+      "protocol": {
+        "endpoint": "0x1a44076050125825900e736c501f859c50fe728c",
+        "sendLibrary": "0xf622dfb40bf7340dbcf1e5147d6cfd95d7c5cf1f",
+        "receiveLibrary": "0x6167caab5c3da63311186db4d4e2596b20f557ec",
+        "blockedLibrary": "0x1ccbf0db9c192d969de57e25b3ff09a25bb1d862",
+        "deadDvn": "0xadfac55b334de39b3efbe88bb1c992765e88bb60",
+        "executors": [
+          "0x148f693af10ddfae81cddb36f4c93b31a90076e1",
+          "0x8dd9197e51dc6082853ad71d35912c53339777a7"
+        ]
+      }
+    },
+    {
+      "id": 1116,
+      "eid": 30153,
+      "key": "coredao",
+      "name": "Core Dao",
+      "shortName": "Core Dao",
+      "symbol": "CORE",
+      "decimals": 18,
+      "explorer": "https://scan.coredao.org",
+      "rpcs": [
+        "https://rpc.ankr.com/core",
+        "https://1rpc.io/core",
+        "https://core.drpc.org"
+      ],
+      "feeModel": "standard",
+      "protocol": {
+        "endpoint": "0x1a44076050125825900e736c501f859c50fe728c",
+        "sendLibrary": "0x0bcac336466ef7f1e0b5c184aab2867c108331af",
+        "receiveLibrary": "0x8f76bacc52b5730c1f1a2413b8936d4df12af4f6",
+        "blockedLibrary": "0x1ccbf0db9c192d969de57e25b3ff09a25bb1d862",
+        "deadDvn": "0xb872d80dd876fb59085872fb99b1ade3dbef5390",
+        "executors": [
+          "0x1785c94d31e3e3ab1079e7ca8a9fbdf33eef9dd5",
+          "0x53490de975969b34e537e541e19f26b15e368895"
+        ]
+      }
+    },
+    {
+      "id": 25,
+      "eid": 30359,
+      "key": "cronosevm",
+      "name": "Cronos Mainnet",
+      "shortName": "Cronos Mainnet",
+      "symbol": "CRO",
+      "decimals": 18,
+      "explorer": "https://explorer.cronos.org",
+      "rpcs": [
+        "https://cronos-evm-rpc.publicnode.com",
+        "https://cronos.drpc.org",
+        "https://evm-dev.cronos.org"
+      ],
+      "feeModel": "standard",
+      "protocol": {
+        "endpoint": "0x3a73033c0b1407574c76bdbac67f126f6b4a9aa9",
+        "sendLibrary": "0x2367325334447c5e1e0f1b3a6fb947b262f58312",
+        "receiveLibrary": "0xc1b621b18187f74c8f6d52a6f709dd2780c09821",
+        "blockedLibrary": "0xf540d892bc671f08e0b1c5b61185c53c2211e8f7",
+        "deadDvn": "0xc097ab8cd7b053326dfe9fb3e3a31a0cce3b526f",
+        "executors": [
+          "0x4b80f7d25c451d204b1c93d9bdf2ab3b04f3ea4a",
+          "0x2bf2f59d2e318bb03c8956e7bc4c3e6c28bd0fc2"
+        ]
+      }
+    },
+    {
+      "id": 1514,
+      "eid": 30364,
+      "key": "story",
+      "name": "Data Network",
+      "shortName": "Data Network",
+      "symbol": "DATA",
+      "decimals": 18,
+      "explorer": "https://www.datanetscan.io",
+      "rpcs": [
+        "https://rpc.ankr.com/story_mainnet",
+        "https://mainnet.storyrpc.io",
+        "https://story-evm-rpc.spidernode.net"
+      ],
+      "feeModel": "standard",
+      "protocol": {
+        "endpoint": "0x3a73033c0b1407574c76bdbac67f126f6b4a9aa9",
+        "sendLibrary": "0x2367325334447c5e1e0f1b3a6fb947b262f58312",
+        "receiveLibrary": "0xc1b621b18187f74c8f6d52a6f709dd2780c09821",
+        "blockedLibrary": "0xf540d892bc671f08e0b1c5b61185c53c2211e8f7",
+        "deadDvn": "0xce8358bc28dd8296ce8caf1cd2b44787abd65887",
+        "executors": [
+          "0x41bdb4aa4a63a5b2efc531858d3118392b1a1c3d",
+          "0x306b9a8953b9462f8b826e6768a93c8ea7454965"
+        ]
+      }
+    },
+    {
+      "id": 432204,
+      "eid": 30118,
+      "key": "dexalot",
+      "name": "Dexalot Subnet",
+      "shortName": "Dexalot Subnet",
+      "symbol": "ALOT",
+      "decimals": 18,
+      "explorer": "https://subnets.avax.network/dexalot",
+      "rpcs": [
+        "https://subnets.avax.network/dexalot/mainnet/rpc"
+      ],
+      "feeModel": "standard",
+      "protocol": {
+        "endpoint": "0x1a44076050125825900e736c501f859c50fe728c",
+        "sendLibrary": "0x439c059878fa7a747ead101e2e20a65aca01c7a8",
+        "receiveLibrary": "0xe01f3c1cd14f39303d175c31c16f58707b28976b",
+        "blockedLibrary": "0x1ccbf0db9c192d969de57e25b3ff09a25bb1d862",
+        "deadDvn": "0x92918f4ad410517b635a8961a64e77bdf8798ddc",
+        "executors": [
+          "0xcbd35a9b849342ad34a71e072d9947d4afb4e164",
+          "0x060335db0f285f144388e22e851916d654ab26a0"
+        ]
+      }
+    },
+    {
+      "id": 202110,
+      "eid": 30385,
+      "key": "dinari",
+      "name": "dinari",
+      "shortName": "dinari",
+      "symbol": "DGAS",
+      "decimals": 18,
+      "explorer": "https://subnets.avax.network/dinari",
+      "rpcs": [
+        "https://subnets.avax.network/dinari/mainnet/rpc"
+      ],
+      "feeModel": "standard",
+      "protocol": {
+        "endpoint": "0xaab5a48cfc03efa9cc34a2c1aacccb84b4b770e4",
+        "sendLibrary": "0xc1b621b18187f74c8f6d52a6f709dd2780c09821",
+        "receiveLibrary": "0x377530cda84dfb2673bf4d145dcf0c4d7fdcb5b6",
+        "blockedLibrary": "0x3adb8d9c040fae1fbac9b579799cd4ca8c768f8a",
+        "deadDvn": "0xc097ab8cd7b053326dfe9fb3e3a31a0cce3b526f",
+        "executors": [
+          "0x4b80f7d25c451d204b1c93d9bdf2ab3b04f3ea4a",
+          "0x2bf2f59d2e318bb03c8956e7bc4c3e6c28bd0fc2"
+        ]
+      }
+    },
+    {
+      "id": 97477,
+      "eid": 30393,
+      "key": "doma",
+      "name": "doma",
+      "shortName": "doma",
+      "symbol": "ETH",
+      "decimals": 18,
+      "explorer": "https://explorer.doma.xyz",
+      "rpcs": [
+        "https://doma.drpc.org",
+        "https://rpc.doma.xyz"
+      ],
+      "feeModel": "unreviewed",
+      "sourceRestriction": "조회 전용 · 이 체인의 수수료/트랜잭션 방식은 아직 검토하지 않아 출발 전송을 지원하지 않습니다.",
+      "protocol": {
+        "endpoint": "0x6f475642a6e85809b1c36fa62763669b1b48dd5b",
+        "sendLibrary": "0xc39161c743d0307eb9bcc9fef03eeb9dc4802de7",
+        "receiveLibrary": "0xe1844c5d63a9543023008d332bd3d2e6f1fe1043",
+        "blockedLibrary": "0xc1ce56b2099ca68720592583c7984cab4b6d7e7a",
+        "deadDvn": "0x6788f52439aca6bff597d3eec2dc9a44b8fee842",
+        "executors": [
+          "0x4208d6e27538189bb48e603d6123a94b8abe0a0b",
+          "0x41bdb4aa4a63a5b2efc531858d3118392b1a1c3d"
+        ]
+      }
+    },
+    {
+      "id": 5064014,
+      "eid": 30391,
+      "key": "ethereal",
+      "name": "ethereal",
+      "shortName": "ethereal",
+      "symbol": "USDe",
+      "decimals": 18,
+      "explorer": "https://explorer.ethereal.trade",
+      "rpcs": [
+        "https://rpc.ethereal.trade"
+      ],
+      "feeModel": "unreviewed",
+      "sourceRestriction": "조회 전용 · 이 체인의 수수료/트랜잭션 방식은 아직 검토하지 않아 출발 전송을 지원하지 않습니다.",
+      "protocol": {
+        "endpoint": "0x6f475642a6e85809b1c36fa62763669b1b48dd5b",
+        "sendLibrary": "0xc39161c743d0307eb9bcc9fef03eeb9dc4802de7",
+        "receiveLibrary": "0xe1844c5d63a9543023008d332bd3d2e6f1fe1043",
+        "blockedLibrary": "0xc1ce56b2099ca68720592583c7984cab4b6d7e7a",
+        "deadDvn": "0x6788f52439aca6bff597d3eec2dc9a44b8fee842",
+        "executors": [
+          "0x4208d6e27538189bb48e603d6123a94b8abe0a0b",
+          "0x41bdb4aa4a63a5b2efc531858d3118392b1a1c3d"
+        ]
+      }
+    },
+    {
+      "id": 42793,
+      "eid": 30292,
+      "key": "etherlink",
+      "name": "Etherlink",
+      "shortName": "Etherlink",
+      "symbol": "XTZ",
+      "decimals": 18,
+      "explorer": "https://explorer.etherlink.com",
+      "rpcs": [
+        "https://rpc.ankr.com/etherlink_mainnet",
+        "https://node.mainnet.etherlink.com"
+      ],
+      "feeModel": "unreviewed",
+      "sourceRestriction": "조회 전용 · 이 체인의 수수료/트랜잭션 방식은 아직 검토하지 않아 출발 전송을 지원하지 않습니다.",
+      "protocol": {
+        "endpoint": "0xaab5a48cfc03efa9cc34a2c1aacccb84b4b770e4",
+        "sendLibrary": "0xc1b621b18187f74c8f6d52a6f709dd2780c09821",
+        "receiveLibrary": "0x377530cda84dfb2673bf4d145dcf0c4d7fdcb5b6",
+        "blockedLibrary": "0x3adb8d9c040fae1fbac9b579799cd4ca8c768f8a",
+        "deadDvn": "0x6f95f0e1903bdb57b0761c8efe9bc3bfb7e416bb",
+        "executors": [
+          "0xa20db4ffe74a31d17fc24bd32a7dd7555441058e",
+          "0x4b80f7d25c451d204b1c93d9bdf2ab3b04f3ea4a"
+        ]
+      }
+    },
+    {
+      "id": 250,
+      "eid": 30112,
+      "key": "fantom",
+      "name": "Fantom",
+      "shortName": "Fantom",
+      "symbol": "FTM",
+      "decimals": 18,
+      "explorer": "https://explorer.fantom.network",
+      "rpcs": [
+        "https://1rpc.io/ftm",
+        "https://api.zan.top/ftm-mainnet",
+        "https://fantom.drpc.org"
+      ],
+      "feeModel": "standard",
+      "protocol": {
+        "endpoint": "0x1a44076050125825900e736c501f859c50fe728c",
+        "sendLibrary": "0xc17babef02a937093363220b0fb57de04a535d5e",
+        "receiveLibrary": "0xe1dd69a2d08df4ea6a30a91cc061ac70f98aabe3",
+        "blockedLibrary": "0x1ccbf0db9c192d969de57e25b3ff09a25bb1d862",
+        "deadDvn": "0xdd8d6cc54fdb9ec81cb8efb8988ee17abb8eecd1",
+        "executors": [
+          "0x2957ebc0d2931270d4a539696514b047756b3056",
+          "0x83e72da23b533b2083ed007223a491ba7ec3ccbe"
+        ]
+      }
+    },
+    {
+      "id": 14,
+      "eid": 30295,
+      "key": "flare",
+      "name": "Flare Mainnet",
+      "shortName": "Flare Mainnet",
+      "symbol": "FLR",
+      "decimals": 18,
+      "explorer": "https://flarescan.com",
+      "rpcs": [
+        "https://rpc.ankr.com/flare",
+        "https://flare.rpc.thirdweb.com",
+        "https://flare-api.flare.network/ext/C/rpc"
+      ],
+      "feeModel": "standard",
+      "protocol": {
+        "endpoint": "0x1a44076050125825900e736c501f859c50fe728c",
+        "sendLibrary": "0xe1844c5d63a9543023008d332bd3d2e6f1fe1043",
+        "receiveLibrary": "0x2367325334447c5e1e0f1b3a6fb947b262f58312",
+        "blockedLibrary": "0x1ccbf0db9c192d969de57e25b3ff09a25bb1d862",
+        "deadDvn": "0x28b6140ead70cb2fb669705b3598ffb4beaa060b",
+        "executors": [
+          "0xcce466a522984415bc91338c232d98869193d46e",
+          "0xa20db4ffe74a31d17fc24bd32a7dd7555441058e"
+        ]
+      }
+    },
+    {
+      "id": 747,
+      "eid": 30336,
+      "key": "flow",
+      "name": "Flow EVM Mainnet",
+      "shortName": "Flow EVM Mainnet",
+      "symbol": "FLOW",
+      "decimals": 18,
+      "explorer": "https://evm.flowscan.io",
+      "rpcs": [
+        "https://mainnet.evm.nodes.onflow.org"
+      ],
+      "feeModel": "unreviewed",
+      "sourceRestriction": "조회 전용 · 이 체인의 수수료/트랜잭션 방식은 아직 검토하지 않아 출발 전송을 지원하지 않습니다.",
+      "protocol": {
+        "endpoint": "0xcb566e3b6934fa77258d68ea18e931fa75e1aaaa",
+        "sendLibrary": "0xe1844c5d63a9543023008d332bd3d2e6f1fe1043",
+        "receiveLibrary": "0x2367325334447c5e1e0f1b3a6fb947b262f58312",
+        "blockedLibrary": "0x26463a4af811c256f669524ec2dc1ba7e7a83c37",
+        "deadDvn": "0x9c061c9a4782294eef65ef28cb88233a987f4bdd",
+        "executors": [
+          "0xa20db4ffe74a31d17fc24bd32a7dd7555441058e",
+          "0x4b80f7d25c451d204b1c93d9bdf2ab3b04f3ea4a"
+        ]
+      }
+    },
+    {
+      "id": 252,
+      "eid": 30255,
+      "key": "fraxtal",
+      "name": "Fraxtal",
+      "shortName": "Fraxtal",
+      "symbol": "FRAX",
+      "decimals": 18,
+      "explorer": "https://fraxscan.com",
+      "rpcs": [
+        "https://fraxtal-rpc.publicnode.com",
+        "https://rpc.frax.com",
+        "https://fraxtal.drpc.org"
+      ],
+      "feeModel": "op-stack",
+      "protocol": {
+        "endpoint": "0x1a44076050125825900e736c501f859c50fe728c",
+        "sendLibrary": "0x377530cda84dfb2673bf4d145dcf0c4d7fdcb5b6",
+        "receiveLibrary": "0x8bc1e36f015b9902b54b1387a4d733cebc2f5a4e",
+        "blockedLibrary": "0x1ccbf0db9c192d969de57e25b3ff09a25bb1d862",
+        "deadDvn": "0x6a6991e0bf27e3cccde6b73de94b7da6e240ff6e",
+        "executors": [
+          "0x41bdb4aa4a63a5b2efc531858d3118392b1a1c3d",
+          "0x306b9a8953b9462f8b826e6768a93c8ea7454965"
+        ]
+      }
+    },
+    {
+      "id": 122,
+      "eid": 30138,
+      "key": "fuse",
+      "name": "Fuse",
+      "shortName": "Fuse",
+      "symbol": "FUSE",
+      "decimals": 18,
+      "explorer": "https://explorer.fuse.io",
+      "rpcs": [
+        "https://fuse.drpc.org",
+        "https://fuse-public.nodies.app",
+        "https://fuse-pokt.nodies.app"
+      ],
+      "feeModel": "unreviewed",
+      "sourceRestriction": "조회 전용 · 이 체인의 수수료/트랜잭션 방식은 아직 검토하지 않아 출발 전송을 지원하지 않습니다.",
+      "protocol": {
+        "endpoint": "0x1a44076050125825900e736c501f859c50fe728c",
+        "sendLibrary": "0x2762409baa1804d94d8c0bcff8400b78bf915d5b",
+        "receiveLibrary": "0xb12514e226e50844e4655696c92c0c36b8a53141",
+        "blockedLibrary": "0x1ccbf0db9c192d969de57e25b3ff09a25bb1d862",
+        "deadDvn": "0xfb01e486d8b2556a70fe66e4a86d76deab4ba974",
+        "executors": [
+          "0xc905e74beb8229e258c3c6e5bc0d6cc54c534688",
+          "0x07245eea05826f5984c7c3c8f478b04892e4df89"
+        ]
+      }
+    },
+    {
+      "id": 10088,
+      "eid": 30389,
+      "key": "gatelayer",
+      "name": "gatelayer",
+      "shortName": "gatelayer",
+      "symbol": "GT",
+      "decimals": 18,
+      "explorer": "https://www.gatescan.org/gatelayer",
+      "rpcs": [
+        "https://gatelayer-mainnet.gatenode.cc"
+      ],
+      "feeModel": "unreviewed",
+      "sourceRestriction": "조회 전용 · 이 체인의 수수료/트랜잭션 방식은 아직 검토하지 않아 출발 전송을 지원하지 않습니다.",
+      "protocol": {
+        "endpoint": "0xcb566e3b6934fa77258d68ea18e931fa75e1aaaa",
+        "sendLibrary": "0xe1844c5d63a9543023008d332bd3d2e6f1fe1043",
+        "receiveLibrary": "0x2367325334447c5e1e0f1b3a6fb947b262f58312",
+        "blockedLibrary": "0x26463a4af811c256f669524ec2dc1ba7e7a83c37",
+        "deadDvn": "0x306b9a8953b9462f8b826e6768a93c8ea7454965",
+        "executors": [
+          "0x4208d6e27538189bb48e603d6123a94b8abe0a0b",
+          "0x41bdb4aa4a63a5b2efc531858d3118392b1a1c3d"
+        ]
+      }
+    },
+    {
+      "id": 685689,
+      "eid": 30412,
+      "key": "gensyn",
+      "name": "Gensyn Mainnet",
+      "shortName": "Gensyn Mainnet",
+      "symbol": "ETH",
+      "decimals": 18,
+      "explorer": "https://gensyn-mainnet.explorer.alchemy.com",
+      "rpcs": [
+        "https://gensyn-mainnet.g.alchemy.com/public"
+      ],
+      "feeModel": "unreviewed",
+      "sourceRestriction": "조회 전용 · 이 체인의 수수료/트랜잭션 방식은 아직 검토하지 않아 출발 전송을 지원하지 않습니다.",
+      "protocol": {
+        "endpoint": "0x6f475642a6e85809b1c36fa62763669b1b48dd5b",
+        "sendLibrary": "0xc39161c743d0307eb9bcc9fef03eeb9dc4802de7",
+        "receiveLibrary": "0xe1844c5d63a9543023008d332bd3d2e6f1fe1043",
+        "blockedLibrary": "0xc1ce56b2099ca68720592583c7984cab4b6d7e7a",
+        "deadDvn": "0x6788f52439aca6bff597d3eec2dc9a44b8fee842",
+        "executors": [
+          "0x4208d6e27538189bb48e603d6123a94b8abe0a0b",
+          "0x41bdb4aa4a63a5b2efc531858d3118392b1a1c3d"
+        ]
+      }
+    },
+    {
+      "id": 100,
+      "eid": 30145,
+      "key": "gnosis",
+      "name": "Gnosis",
+      "shortName": "Gnosis",
+      "symbol": "XDAI",
+      "decimals": 18,
+      "explorer": "https://gnosisscan.io",
+      "rpcs": [
+        "https://gnosis-rpc.publicnode.com",
+        "https://1rpc.io/gnosis",
+        "https://0xrpc.io/gno"
+      ],
+      "feeModel": "standard",
+      "protocol": {
+        "endpoint": "0x1a44076050125825900e736c501f859c50fe728c",
+        "sendLibrary": "0x3c156b1f625d2b4e004d43e91ac2c3a719c29c7b",
+        "receiveLibrary": "0x9714ccf1dedef14bab5013625db92746c1358cb4",
+        "blockedLibrary": "0x1ccbf0db9c192d969de57e25b3ff09a25bb1d862",
+        "deadDvn": "0x8a893567f27893e6e0c7b6bba8769d9ab3e911ff",
+        "executors": [
+          "0x38340337f9adf5d76029ab3a667d34e5a032f7ba",
+          "0x2f0788ffbf8fca58b2ea10c05f0ca9931ffc8978"
+        ]
+      }
+    },
+    {
+      "id": 2345,
+      "eid": 30361,
+      "key": "goat",
+      "name": "GOAT",
+      "shortName": "GOAT",
+      "symbol": "BTC",
+      "decimals": 18,
+      "explorer": "https://explorer.goat.network",
+      "rpcs": [
+        "https://rpc.ankr.com/goat_mainnet",
+        "https://rpc.goat.network",
+        "https://goat-mainnet-alpha.drpc.org"
+      ],
+      "feeModel": "unreviewed",
+      "sourceRestriction": "조회 전용 · 이 체인의 수수료/트랜잭션 방식은 아직 검토하지 않아 출발 전송을 지원하지 않습니다.",
+      "protocol": {
+        "endpoint": "0x6f475642a6e85809b1c36fa62763669b1b48dd5b",
+        "sendLibrary": "0xc39161c743d0307eb9bcc9fef03eeb9dc4802de7",
+        "receiveLibrary": "0xe1844c5d63a9543023008d332bd3d2e6f1fe1043",
+        "blockedLibrary": "0xc1ce56b2099ca68720592583c7984cab4b6d7e7a",
+        "deadDvn": "0x6788f52439aca6bff597d3eec2dc9a44b8fee842",
+        "executors": [
+          "0x4208d6e27538189bb48e603d6123a94b8abe0a0b",
+          "0x41bdb4aa4a63a5b2efc531858d3118392b1a1c3d"
+        ]
+      }
+    },
+    {
+      "id": 1625,
+      "eid": 30294,
+      "key": "gravity",
+      "name": "Gravity Alpha Mainnet",
+      "shortName": "Gravity Alpha Mainnet",
+      "symbol": "G",
+      "decimals": 18,
+      "explorer": "https://explorer.gravity.xyz",
+      "rpcs": [
+        "https://rpc.ankr.com/gravity",
+        "https://rpc.gravity.xyz"
+      ],
+      "feeModel": "arbitrum",
+      "protocol": {
+        "endpoint": "0x1a44076050125825900e736c501f859c50fe728c",
+        "sendLibrary": "0xe1844c5d63a9543023008d332bd3d2e6f1fe1043",
+        "receiveLibrary": "0x2367325334447c5e1e0f1b3a6fb947b262f58312",
+        "blockedLibrary": "0x1ccbf0db9c192d969de57e25b3ff09a25bb1d862",
+        "deadDvn": "0xc70ab6f32772f59fbfc23889caf4ba3376c84baf",
+        "executors": [
+          "0xcce466a522984415bc91338c232d98869193d46e",
+          "0xa20db4ffe74a31d17fc24bd32a7dd7555441058e"
+        ]
+      }
+    },
+    {
+      "id": 43419,
+      "eid": 30371,
+      "key": "gunz",
+      "name": "Gunz Mainnet",
+      "shortName": "Gunz Mainnet",
+      "symbol": "GUN",
+      "decimals": 18,
+      "explorer": "https://gunzscan.io",
+      "rpcs": [
+        "https://rpc.gunzchain.io/ext/bc/2M47TxWHGnhNtq6pM5zPXdATBtuqubxn5EPFgFmEawCQr9WFML/rpc"
+      ],
+      "feeModel": "unreviewed",
+      "sourceRestriction": "조회 전용 · 이 체인의 수수료/트랜잭션 방식은 아직 검토하지 않아 출발 전송을 지원하지 않습니다.",
+      "protocol": {
+        "endpoint": "0xcb566e3b6934fa77258d68ea18e931fa75e1aaaa",
+        "sendLibrary": "0xe1844c5d63a9543023008d332bd3d2e6f1fe1043",
+        "receiveLibrary": "0x2367325334447c5e1e0f1b3a6fb947b262f58312",
+        "blockedLibrary": "0x26463a4af811c256f669524ec2dc1ba7e7a83c37",
+        "deadDvn": "0x9c061c9a4782294eef65ef28cb88233a987f4bdd",
+        "executors": [
+          "0xa20db4ffe74a31d17fc24bd32a7dd7555441058e",
+          "0x4b80f7d25c451d204b1c93d9bdf2ab3b04f3ea4a"
+        ]
+      }
+    },
+    {
+      "id": 1666600000,
+      "eid": 30116,
+      "key": "harmony",
+      "name": "Harmony One",
+      "shortName": "Harmony One",
+      "symbol": "ONE",
+      "decimals": 18,
+      "explorer": "https://explorer.harmony.one",
+      "rpcs": [
+        "https://1rpc.io/one",
+        "https://api.harmony.one",
+        "https://api.s0.t.hmny.io"
+      ],
+      "feeModel": "unreviewed",
+      "sourceRestriction": "조회 전용 · 이 체인의 수수료/트랜잭션 방식은 아직 검토하지 않아 출발 전송을 지원하지 않습니다.",
+      "protocol": {
+        "endpoint": "0x1a44076050125825900e736c501f859c50fe728c",
+        "sendLibrary": "0x795f8325af292ff6e58249361d1954893be15aff",
+        "receiveLibrary": "0x177d36dbe2271a4ddb2ad8304d82628eb921d790",
+        "blockedLibrary": "0x1ccbf0db9c192d969de57e25b3ff09a25bb1d862",
+        "deadDvn": "0x801bfd947905c337d552f8e30cb4e80435771674",
+        "executors": [
+          "0xd27b2fe1d0a60e06a0ec7e64501d2f15e6c65bd9",
+          "0xdf3ad32a558578ac0ad1c19aad41da1ba5b37d69"
+        ]
+      }
+    },
+    {
+      "id": 43111,
+      "eid": 30329,
+      "key": "hemi",
+      "name": "Hemi",
+      "shortName": "Hemi",
+      "symbol": "ETH",
+      "decimals": 18,
+      "explorer": "https://explorer.hemi.xyz",
+      "rpcs": [
+        "https://hemi.drpc.org",
+        "https://rpc.hemi.network/rpc"
+      ],
+      "feeModel": "unreviewed",
+      "sourceRestriction": "조회 전용 · 이 체인의 수수료/트랜잭션 방식은 아직 검토하지 않아 출발 전송을 지원하지 않습니다.",
+      "protocol": {
+        "endpoint": "0x6f475642a6e85809b1c36fa62763669b1b48dd5b",
+        "sendLibrary": "0xc39161c743d0307eb9bcc9fef03eeb9dc4802de7",
+        "receiveLibrary": "0xe1844c5d63a9543023008d332bd3d2e6f1fe1043",
+        "blockedLibrary": "0xc1ce56b2099ca68720592583c7984cab4b6d7e7a",
+        "deadDvn": "0x6788f52439aca6bff597d3eec2dc9a44b8fee842",
+        "executors": [
+          "0x4208d6e27538189bb48e603d6123a94b8abe0a0b",
+          "0x41bdb4aa4a63a5b2efc531858d3118392b1a1c3d"
+        ]
+      }
+    },
+    {
+      "id": 26514,
+      "eid": 30399,
+      "key": "horizen",
+      "name": "horizen",
+      "shortName": "horizen",
+      "symbol": "ETH",
+      "decimals": 18,
+      "explorer": "https://horizen.calderaexplorer.xyz",
+      "rpcs": [],
+      "feeModel": "unreviewed",
+      "sourceRestriction": "조회 전용 · 이 체인의 수수료/트랜잭션 방식은 아직 검토하지 않아 출발 전송을 지원하지 않습니다.",
+      "protocol": {
+        "endpoint": "0x6f475642a6e85809b1c36fa62763669b1b48dd5b",
+        "sendLibrary": "0xc39161c743d0307eb9bcc9fef03eeb9dc4802de7",
+        "receiveLibrary": "0xe1844c5d63a9543023008d332bd3d2e6f1fe1043",
+        "blockedLibrary": "0xc1ce56b2099ca68720592583c7984cab4b6d7e7a",
+        "deadDvn": "0x6788f52439aca6bff597d3eec2dc9a44b8fee842",
+        "executors": [
+          "0x4208d6e27538189bb48e603d6123a94b8abe0a0b",
+          "0x41bdb4aa4a63a5b2efc531858d3118392b1a1c3d"
+        ]
+      }
+    },
+    {
+      "id": 6985385,
+      "eid": 30382,
+      "key": "humanity",
+      "name": "Humanity",
+      "shortName": "Humanity",
+      "symbol": "H",
+      "decimals": 18,
+      "explorer": "https://humanity-mainnet.explorer.alchemy.com",
+      "rpcs": [
+        "https://humanity-mainnet.g.alchemy.com/public"
+      ],
+      "feeModel": "arbitrum",
+      "protocol": {
+        "endpoint": "0x6f475642a6e85809b1c36fa62763669b1b48dd5b",
+        "sendLibrary": "0xc39161c743d0307eb9bcc9fef03eeb9dc4802de7",
+        "receiveLibrary": "0xe1844c5d63a9543023008d332bd3d2e6f1fe1043",
+        "blockedLibrary": "0xc1ce56b2099ca68720592583c7984cab4b6d7e7a",
+        "deadDvn": "0x282b3386571f7f794450d5789911a9804fa346b4",
+        "executors": [
+          "0xcce466a522984415bc91338c232d98869193d46e",
+          "0x41bdb4aa4a63a5b2efc531858d3118392b1a1c3d"
+        ]
+      }
+    },
+    {
+      "id": 999,
+      "eid": 30367,
+      "key": "hyperliquid",
+      "name": "HyperEVM",
+      "shortName": "HyperEVM",
+      "symbol": "HYPE",
+      "decimals": 18,
+      "explorer": "https://hyperevmscan.io",
+      "rpcs": [
+        "https://hyperliquid.drpc.org",
+        "https://rpc.hyperliquid.xyz/evm",
+        "https://rpc.countzero.xyz/evm"
+      ],
+      "feeModel": "standard",
+      "protocol": {
+        "endpoint": "0x3a73033c0b1407574c76bdbac67f126f6b4a9aa9",
+        "sendLibrary": "0xfd76d9cb0bac839725ab79127e7411fe71b1e3ca",
+        "receiveLibrary": "0x7cacbe439ead55fa1c22790330b12835c6884a91",
+        "blockedLibrary": "0xf540d892bc671f08e0b1c5b61185c53c2211e8f7",
+        "deadDvn": "0xcce466a522984415bc91338c232d98869193d46e",
+        "executors": [
+          "0x41bdb4aa4a63a5b2efc531858d3118392b1a1c3d",
+          "0x306b9a8953b9462f8b826e6768a93c8ea7454965"
+        ]
+      }
+    },
+    {
+      "id": 1776,
+      "eid": 30394,
+      "key": "injectiveevm",
+      "name": "Injective",
+      "shortName": "Injective",
+      "symbol": "INJ",
+      "decimals": 18,
+      "explorer": "https://blockscout.injective.network",
+      "rpcs": [
+        "https://sentry.evm-rpc.injective.network",
+        "https://injectiveevm-rpc.polkachu.com"
+      ],
+      "feeModel": "unreviewed",
+      "sourceRestriction": "조회 전용 · 이 체인의 수수료/트랜잭션 방식은 아직 검토하지 않아 출발 전송을 지원하지 않습니다.",
+      "protocol": {
+        "endpoint": "0x6f475642a6e85809b1c36fa62763669b1b48dd5b",
+        "sendLibrary": "0x37aaaf95887624a363effb7762d489e3c05c2a02",
+        "receiveLibrary": "0x15e51701f245f6d5bd0fee87bcaf55b0841451b3",
+        "blockedLibrary": "0xc1ce56b2099ca68720592583c7984cab4b6d7e7a",
+        "deadDvn": "0xce8358bc28dd8296ce8caf1cd2b44787abd65887",
+        "executors": [
+          "0x4208d6e27538189bb48e603d6123a94b8abe0a0b",
+          "0x41bdb4aa4a63a5b2efc531858d3118392b1a1c3d"
+        ]
+      }
+    },
+    {
+      "id": 57073,
+      "eid": 30339,
+      "key": "ink",
+      "name": "Ink",
+      "shortName": "Ink",
+      "symbol": "ETH",
+      "decimals": 18,
+      "explorer": "https://explorer.inkonchain.com",
+      "rpcs": [
+        "https://ink.drpc.org",
+        "https://rpc-qnd.inkonchain.com",
+        "https://rpc-gel.inkonchain.com"
+      ],
+      "feeModel": "op-stack",
+      "protocol": {
+        "endpoint": "0xca29f3a6f966cb2fc0de625f8f325c0c46dbe958",
+        "sendLibrary": "0x76111de813f83aaadbd62773bf41247634e2319a",
+        "receiveLibrary": "0x473132bb594caef281c68718f4541f73fe14dc89",
+        "blockedLibrary": "0x796862c4849662bfc30fe7559780923d519d3192",
+        "deadDvn": "0x5ba261d2b595966a81548b4fbe3851a6da9cf92c",
+        "executors": [
+          "0xfebcf17b11376c724ab5a5229803c6e838b6eae5",
+          "0xae3c661292bb4d0aeee0588b4404778df1799ee6"
+        ]
+      }
+    },
+    {
+      "id": 8822,
+      "eid": 30284,
+      "key": "iota",
+      "name": "IOTA EVM",
+      "shortName": "IOTA EVM",
+      "symbol": "IOTA",
+      "decimals": 18,
+      "explorer": "https://explorer.evm.iota.org",
+      "rpcs": [
+        "https://rpc.ankr.com/iota_evm",
+        "https://json-rpc.evm.iotaledger.net"
+      ],
+      "feeModel": "standard",
+      "protocol": {
+        "endpoint": "0x1a44076050125825900e736c501f859c50fe728c",
+        "sendLibrary": "0xc39161c743d0307eb9bcc9fef03eeb9dc4802de7",
+        "receiveLibrary": "0xe1844c5d63a9543023008d332bd3d2e6f1fe1043",
+        "blockedLibrary": "0x1ccbf0db9c192d969de57e25b3ff09a25bb1d862",
+        "deadDvn": "0xe6f1c3c1674d3bae71ef33300441e7469a0021ff",
+        "executors": [
+          "0xc097ab8cd7b053326dfe9fb3e3a31a0cce3b526f",
+          "0x4208d6e27538189bb48e603d6123a94b8abe0a0b"
+        ]
+      }
+    },
+    {
+      "id": 3282,
+      "eid": 30408,
+      "key": "irys",
+      "name": "irys",
+      "shortName": "irys",
+      "symbol": "IRYS",
+      "decimals": 18,
+      "explorer": "https://evm-explorer.irys.xyz",
+      "rpcs": [],
+      "feeModel": "unreviewed",
+      "sourceRestriction": "조회 전용 · 이 체인의 수수료/트랜잭션 방식은 아직 검토하지 않아 출발 전송을 지원하지 않습니다.",
+      "protocol": {
+        "endpoint": "0x6f475642a6e85809b1c36fa62763669b1b48dd5b",
+        "sendLibrary": "0xc39161c743d0307eb9bcc9fef03eeb9dc4802de7",
+        "receiveLibrary": "0xe1844c5d63a9543023008d332bd3d2e6f1fe1043",
+        "blockedLibrary": "0xc1ce56b2099ca68720592583c7984cab4b6d7e7a",
+        "deadDvn": "0x6788f52439aca6bff597d3eec2dc9a44b8fee842",
+        "executors": [
+          "0x4208d6e27538189bb48e603d6123a94b8abe0a0b",
+          "0x41bdb4aa4a63a5b2efc531858d3118392b1a1c3d"
+        ]
+      }
+    },
+    {
+      "id": 81,
+      "eid": 30285,
+      "key": "joc",
+      "name": "Japan Open Chain Mainnet",
+      "shortName": "Japan Open Chain Mainnet",
+      "symbol": "JOC",
+      "decimals": 18,
+      "explorer": "https://mainnet.japanopenchain.org",
+      "rpcs": [
+        "https://rpc-1.japanopenchain.org:8545",
+        "https://rpc-2.japanopenchain.org:8545",
+        "https://rpc-3.japanopenchain.org"
+      ],
+      "feeModel": "unreviewed",
+      "sourceRestriction": "조회 전용 · 이 체인의 수수료/트랜잭션 방식은 아직 검토하지 않아 출발 전송을 지원하지 않습니다.",
+      "protocol": {
+        "endpoint": "0x1a44076050125825900e736c501f859c50fe728c",
+        "sendLibrary": "0xe1844c5d63a9543023008d332bd3d2e6f1fe1043",
+        "receiveLibrary": "0x2367325334447c5e1e0f1b3a6fb947b262f58312",
+        "blockedLibrary": "0x1ccbf0db9c192d969de57e25b3ff09a25bb1d862",
+        "deadDvn": "0xcc2d3d4b88b87775bec386d92f6951ee7f8d52d9",
+        "executors": [
+          "0xcce466a522984415bc91338c232d98869193d46e",
+          "0xa20db4ffe74a31d17fc24bd32a7dd7555441058e"
+        ]
+      }
+    },
+    {
+      "id": 8217,
+      "eid": 30150,
+      "key": "klaytn",
+      "name": "Kaia",
+      "shortName": "Kaia (Klaytn)",
+      "symbol": "KAIA",
+      "decimals": 18,
+      "explorer": "https://kaiascan.io",
+      "rpcs": [
+        "https://rpc.ankr.com/kaia",
+        "https://1rpc.io/klay",
+        "https://klaytn.drpc.org"
+      ],
+      "feeModel": "standard",
+      "protocol": {
+        "endpoint": "0x1a44076050125825900e736c501f859c50fe728c",
+        "sendLibrary": "0x9714ccf1dedef14bab5013625db92746c1358cb4",
+        "receiveLibrary": "0x937aba873827bf883ced83ca557697427eaa46ee",
+        "blockedLibrary": "0x1ccbf0db9c192d969de57e25b3ff09a25bb1d862",
+        "deadDvn": "0xdc58a279bd69b208a4adfda0aa066f76e33e2901",
+        "executors": [
+          "0xe149187a987f129fd3d397ed04a60b0b89d1669f",
+          "0x75b073994560a5c03cd970414d9170be0c6e5c36"
+        ]
+      }
+    },
+    {
+      "id": 747474,
+      "eid": 30375,
+      "key": "katana",
+      "name": "Katana",
+      "shortName": "Katana",
+      "symbol": "ETH",
+      "decimals": 18,
+      "explorer": "https://katanascan.com",
+      "rpcs": [
+        "https://katana.drpc.org",
+        "https://rpc.katana.network"
+      ],
+      "feeModel": "unreviewed",
+      "sourceRestriction": "조회 전용 · 이 체인의 수수료/트랜잭션 방식은 아직 검토하지 않아 출발 전송을 지원하지 않습니다.",
+      "protocol": {
+        "endpoint": "0x6f475642a6e85809b1c36fa62763669b1b48dd5b",
+        "sendLibrary": "0xc39161c743d0307eb9bcc9fef03eeb9dc4802de7",
+        "receiveLibrary": "0xe1844c5d63a9543023008d332bd3d2e6f1fe1043",
+        "blockedLibrary": "0xc1ce56b2099ca68720592583c7984cab4b6d7e7a",
+        "deadDvn": "0x6788f52439aca6bff597d3eec2dc9a44b8fee842",
+        "executors": [
+          "0x4208d6e27538189bb48e603d6123a94b8abe0a0b",
+          "0x41bdb4aa4a63a5b2efc531858d3118392b1a1c3d"
+        ]
+      }
+    },
+    {
+      "id": 2222,
+      "eid": 30177,
+      "key": "kava",
+      "name": "Kava EVM",
+      "shortName": "Kava EVM",
+      "symbol": "KAVA",
+      "decimals": 18,
+      "explorer": "https://kavascan.com",
+      "rpcs": [
+        "https://kava-evm-rpc.publicnode.com",
+        "https://rpc.ankr.com/kava_evm",
+        "https://kava.drpc.org"
+      ],
+      "feeModel": "standard",
+      "protocol": {
+        "endpoint": "0x1a44076050125825900e736c501f859c50fe728c",
+        "sendLibrary": "0x83fb937054918cb7accb15bd6cd9234df9ebb357",
+        "receiveLibrary": "0xb7e97ad5661134185fe608b2a31fe8cef2147ba9",
+        "blockedLibrary": "0x1ccbf0db9c192d969de57e25b3ff09a25bb1d862",
+        "deadDvn": "0x1b3b79f03ee74d4c88f2bdd84112b58a01ea0167",
+        "executors": [
+          "0x41ed8065dd9bc6c0caf21c39766edcba0f21851c",
+          "0x0a1df45fcb28616bd2f45512f8aa6ca958829ef1"
+        ]
+      }
+    },
+    {
+      "id": 2366,
+      "eid": 30406,
+      "key": "kite",
+      "name": "kite",
+      "shortName": "kite",
+      "symbol": "KITE",
+      "decimals": 18,
+      "explorer": "https://kitescan.ai",
+      "rpcs": [
+        "https://rpc.gokite.ai"
+      ],
+      "feeModel": "standard",
+      "protocol": {
+        "endpoint": "0x6f475642a6e85809b1c36fa62763669b1b48dd5b",
+        "sendLibrary": "0xc39161c743d0307eb9bcc9fef03eeb9dc4802de7",
+        "receiveLibrary": "0xe1844c5d63a9543023008d332bd3d2e6f1fe1043",
+        "blockedLibrary": "0xc1ce56b2099ca68720592583c7984cab4b6d7e7a",
+        "deadDvn": "0x6788f52439aca6bff597d3eec2dc9a44b8fee842",
+        "executors": [
+          "0x4208d6e27538189bb48e603d6123a94b8abe0a0b",
+          "0x41bdb4aa4a63a5b2efc531858d3118392b1a1c3d"
+        ]
+      }
+    },
+    {
+      "id": 232,
+      "eid": 30373,
+      "key": "lens",
+      "name": "Lens",
+      "shortName": "Lens",
+      "symbol": "GHO",
+      "decimals": 18,
+      "explorer": "https://explorer.lens.xyz",
+      "rpcs": [
+        "https://lens.drpc.org",
+        "https://rpc.lens.xyz",
+        "https://light-icy-dinghy.lens-mainnet.quiknode.pro"
+      ],
+      "feeModel": "unreviewed",
+      "sourceRestriction": "조회 전용 · 이 체인의 수수료/트랜잭션 방식은 아직 검토하지 않아 출발 전송을 지원하지 않습니다.",
+      "protocol": {
+        "endpoint": "0x5c6cff4b7c49805f8295ff73c204ac83f3bc4ae7",
+        "sendLibrary": "0x01047601db5e63b1574aae317bad9c684e3c9056",
+        "receiveLibrary": "0x9ab633555e460c01f8c7b8ab24c88dd4986dd5a1",
+        "blockedLibrary": "0x3258287147fb7887d8a643006e26e19368057377",
+        "deadDvn": "0x04830f6decf08dec9ed6c3fcad215245b78a59e1",
+        "executors": [
+          "0x553313db58deefa3d55b1457d27eab3fe5ec87e8",
+          "0xcaeb82549ff641c4af73505a137b5bed06feaf64"
+        ]
+      }
+    },
+    {
+      "id": 1890,
+      "eid": 30309,
+      "key": "lightlink",
+      "name": "LightLink Phoenix Mainnet",
+      "shortName": "LightLink Phoenix Mainnet",
+      "symbol": "ETH",
+      "decimals": 18,
+      "explorer": "https://phoenix.lightlink.io",
+      "rpcs": [
+        "https://replicator.phoenix.lightlink.io/rpc/v1"
+      ],
+      "feeModel": "unreviewed",
+      "sourceRestriction": "조회 전용 · 이 체인의 수수료/트랜잭션 방식은 아직 검토하지 않아 출발 전송을 지원하지 않습니다.",
+      "protocol": {
+        "endpoint": "0x6f475642a6e85809b1c36fa62763669b1b48dd5b",
+        "sendLibrary": "0xc39161c743d0307eb9bcc9fef03eeb9dc4802de7",
+        "receiveLibrary": "0xe1844c5d63a9543023008d332bd3d2e6f1fe1043",
+        "blockedLibrary": "0xc1ce56b2099ca68720592583c7984cab4b6d7e7a",
+        "deadDvn": "0x9c061c9a4782294eef65ef28cb88233a987f4bdd",
+        "executors": [
+          "0xcce466a522984415bc91338c232d98869193d46e",
+          "0xa20db4ffe74a31d17fc24bd32a7dd7555441058e"
+        ]
+      }
+    },
+    {
+      "id": 59144,
+      "eid": 30183,
+      "key": "linea",
+      "name": "Linea Mainnet",
+      "shortName": "Linea Mainnet",
+      "symbol": "ETH",
+      "decimals": 18,
+      "explorer": "https://explorer.linea.build",
+      "rpcs": [
+        "https://linea-rpc.publicnode.com",
+        "https://1rpc.io/linea",
+        "https://linea.drpc.org"
+      ],
+      "feeModel": "unreviewed",
+      "sourceRestriction": "조회 전용 · 이 체인의 수수료/트랜잭션 방식은 아직 검토하지 않아 출발 전송을 지원하지 않습니다.",
+      "protocol": {
+        "endpoint": "0x1a44076050125825900e736c501f859c50fe728c",
+        "sendLibrary": "0x32042142dd551b4ebe17b6fed53131dd4b4eea06",
+        "receiveLibrary": "0xe22ed54177ce1148c557de74e4873619e6c6b205",
+        "blockedLibrary": "0x1ccbf0db9c192d969de57e25b3ff09a25bb1d862",
+        "deadDvn": "0x1b368a0d7c57080a01054862114b5a42e54cbb98",
+        "executors": [
+          "0x0408804c5dcd9796f22558464e6fe5bddf16a7c7",
+          "0x59dae6516d2fa7f21195adc0cda14d819d21031c"
+        ]
+      }
+    },
+    {
+      "id": 1135,
+      "eid": 30321,
+      "key": "lisk",
+      "name": "Lisk",
+      "shortName": "Lisk",
+      "symbol": "ETH",
+      "decimals": 18,
+      "explorer": "https://blockscout.lisk.com",
+      "rpcs": [
+        "https://lisk.drpc.org",
+        "https://rpc.api.lisk.com",
+        "https://lisk.gateway.tenderly.co"
+      ],
+      "feeModel": "op-stack",
+      "protocol": {
+        "endpoint": "0x6f475642a6e85809b1c36fa62763669b1b48dd5b",
+        "sendLibrary": "0xc39161c743d0307eb9bcc9fef03eeb9dc4802de7",
+        "receiveLibrary": "0xe1844c5d63a9543023008d332bd3d2e6f1fe1043",
+        "blockedLibrary": "0xc1ce56b2099ca68720592583c7984cab4b6d7e7a",
+        "deadDvn": "0x9c061c9a4782294eef65ef28cb88233a987f4bdd",
+        "executors": [
+          "0xcce466a522984415bc91338c232d98869193d46e",
+          "0xa20db4ffe74a31d17fc24bd32a7dd7555441058e"
+        ]
+      }
+    },
+    {
+      "id": 957,
+      "eid": 30311,
+      "key": "lyra",
+      "name": "Lyra Chain",
+      "shortName": "Lyra Chain",
+      "symbol": "ETH",
+      "decimals": 18,
+      "explorer": "https://explorer.derive.xyz",
+      "rpcs": [
+        "https://rpc.lyra.finance"
+      ],
+      "feeModel": "unreviewed",
+      "sourceRestriction": "조회 전용 · 이 체인의 수수료/트랜잭션 방식은 아직 검토하지 않아 출발 전송을 지원하지 않습니다.",
+      "protocol": {
+        "endpoint": "0xcb566e3b6934fa77258d68ea18e931fa75e1aaaa",
+        "sendLibrary": "0xe1844c5d63a9543023008d332bd3d2e6f1fe1043",
+        "receiveLibrary": "0x2367325334447c5e1e0f1b3a6fb947b262f58312",
+        "blockedLibrary": "0x26463a4af811c256f669524ec2dc1ba7e7a83c37",
+        "deadDvn": "0xce8358bc28dd8296ce8caf1cd2b44787abd65887",
+        "executors": [
+          "0x4208d6e27538189bb48e603d6123a94b8abe0a0b",
+          "0x41bdb4aa4a63a5b2efc531858d3118392b1a1c3d"
+        ]
+      }
+    },
+    {
+      "id": 169,
+      "eid": 30217,
+      "key": "manta",
+      "name": "Manta Pacific Mainnet",
+      "shortName": "Manta Pacific Mainnet",
+      "symbol": "ETH",
+      "decimals": 18,
+      "explorer": "https://pacific-explorer.manta.network",
+      "rpcs": [
+        "https://pacific-rpc.manta.network/http",
+        "https://manta-pacific.drpc.org",
+        "https://1rpc.io/manta"
+      ],
+      "feeModel": "unreviewed",
+      "sourceRestriction": "조회 전용 · 이 체인의 수수료/트랜잭션 방식은 아직 검토하지 않아 출발 전송을 지원하지 않습니다.",
+      "protocol": {
+        "endpoint": "0x1a44076050125825900e736c501f859c50fe728c",
+        "sendLibrary": "0xd1654c656455e40e2905e96b6b91088ac2b362a2",
+        "receiveLibrary": "0xc1ec25a9e8a8de5aa346f635b33e5b74c4c081af",
+        "blockedLibrary": "0x1ccbf0db9c192d969de57e25b3ff09a25bb1d862",
+        "deadDvn": "0xf9420f9d2552640e242ad89cd5d3b625f92705c9",
+        "executors": [
+          "0x8dd9197e51dc6082853ad71d35912c53339777a7",
+          "0xe767e048221197a2b590ceb5c63c3aad8ebf87ea"
+        ]
+      }
+    },
+    {
+      "id": 5000,
+      "eid": 30181,
+      "key": "mantle",
+      "name": "Mantle",
+      "shortName": "Mantle",
+      "symbol": "MNT",
+      "decimals": 18,
+      "explorer": "https://explorer.mantle.xyz",
+      "rpcs": [
+        "https://mantle-rpc.publicnode.com",
+        "https://1rpc.io/mantle",
+        "https://mantle.drpc.org"
+      ],
+      "feeModel": "unreviewed",
+      "sourceRestriction": "조회 전용 · 이 체인의 수수료/트랜잭션 방식은 아직 검토하지 않아 출발 전송을 지원하지 않습니다.",
+      "protocol": {
+        "endpoint": "0x1a44076050125825900e736c501f859c50fe728c",
+        "sendLibrary": "0xde19274c009a22921e3966a1ec868ceba40a5dac",
+        "receiveLibrary": "0x8da6512de9379fbf4f09bf520caf7a85435ed93e",
+        "blockedLibrary": "0x1ccbf0db9c192d969de57e25b3ff09a25bb1d862",
+        "deadDvn": "0x2e2af282e98bfaded5dd6ec51c7240d818ddbbd9",
+        "executors": [
+          "0x4fc3f4a38acd6e4cc0ccbc04b3dd1ccaefd7f3cd",
+          "0x4e341b9cf90514a5b7dfec2c9a1f20aa4514c260"
+        ]
+      }
+    },
+    {
+      "id": 4326,
+      "eid": 30398,
+      "key": "megaeth",
+      "name": "MegaETH",
+      "shortName": "MegaETH",
+      "symbol": "ETH",
+      "decimals": 18,
+      "explorer": "https://mega.etherscan.io",
+      "rpcs": [
+        "https://mainnet.megaeth.com/rpc"
+      ],
+      "feeModel": "unreviewed",
+      "sourceRestriction": "조회 전용 · 이 체인의 수수료/트랜잭션 방식은 아직 검토하지 않아 출발 전송을 지원하지 않습니다.",
+      "protocol": {
+        "endpoint": "0x6f475642a6e85809b1c36fa62763669b1b48dd5b",
+        "sendLibrary": "0xc39161c743d0307eb9bcc9fef03eeb9dc4802de7",
+        "receiveLibrary": "0xe1844c5d63a9543023008d332bd3d2e6f1fe1043",
+        "blockedLibrary": "0xc1ce56b2099ca68720592583c7984cab4b6d7e7a",
+        "deadDvn": "0x6788f52439aca6bff597d3eec2dc9a44b8fee842",
+        "executors": [
+          "0x4208d6e27538189bb48e603d6123a94b8abe0a0b",
+          "0x41bdb4aa4a63a5b2efc531858d3118392b1a1c3d"
+        ]
+      }
+    },
+    {
+      "id": 4200,
+      "eid": 30266,
+      "key": "merlin",
+      "name": "Merlin",
+      "shortName": "Merlin",
+      "symbol": "BTC",
+      "decimals": 18,
+      "explorer": "https://scan.merlinchain.io",
+      "rpcs": [
+        "https://merlin.drpc.org",
+        "https://rpc.merlinchain.io",
+        "https://merlin.blockpi.network/v1/rpc/public"
+      ],
+      "feeModel": "unreviewed",
+      "sourceRestriction": "조회 전용 · 이 체인의 수수료/트랜잭션 방식은 아직 검토하지 않아 출발 전송을 지원하지 않습니다.",
+      "protocol": {
+        "endpoint": "0x1a44076050125825900e736c501f859c50fe728c",
+        "sendLibrary": "0xc39161c743d0307eb9bcc9fef03eeb9dc4802de7",
+        "receiveLibrary": "0xe1844c5d63a9543023008d332bd3d2e6f1fe1043",
+        "blockedLibrary": "0x1ccbf0db9c192d969de57e25b3ff09a25bb1d862",
+        "deadDvn": "0x5ee3cb252978c2a51671e6aad109491e62f04d8f",
+        "executors": [
+          "0xc097ab8cd7b053326dfe9fb3e3a31a0cce3b526f",
+          "0x4208d6e27538189bb48e603d6123a94b8abe0a0b"
+        ]
+      }
+    },
+    {
+      "id": 1088,
+      "eid": 30151,
+      "key": "metis",
+      "name": "Metis",
+      "shortName": "Metis",
+      "symbol": "METIS",
+      "decimals": 18,
+      "explorer": "https://andromeda-explorer.metis.io",
+      "rpcs": [
+        "https://metis-rpc.publicnode.com",
+        "https://metis-andromeda.rpc.thirdweb.com",
+        "https://metis.drpc.org"
+      ],
+      "feeModel": "unreviewed",
+      "sourceRestriction": "조회 전용 · 이 체인의 수수료/트랜잭션 방식은 아직 검토하지 않아 출발 전송을 지원하지 않습니다.",
+      "protocol": {
+        "endpoint": "0x1a44076050125825900e736c501f859c50fe728c",
+        "sendLibrary": "0x63e39ccb510926d05a0ae7817c8f1cc61c5bdd6c",
+        "receiveLibrary": "0x5539eb17a84e1d59d37c222eb2cc4c81b502d1ac",
+        "blockedLibrary": "0x1ccbf0db9c192d969de57e25b3ff09a25bb1d862",
+        "deadDvn": "0x4cc028221b4567c7439dc618d2d7f7a22315c1e4",
+        "executors": [
+          "0xe6ab3b3e632f3c65c3cb4c250dcc42f5e915a1cf",
+          "0xc1b85974f7c2f0ccb01d763f4a34bfb41a33d612"
+        ]
+      }
+    },
+    {
+      "id": 2288,
+      "eid": 30404,
+      "key": "moca",
+      "name": "moca",
+      "shortName": "moca",
+      "symbol": "MOCA",
+      "decimals": 18,
+      "explorer": "https://moca-mainnet.cloud.blockscout.com",
+      "rpcs": [
+        "https://rpc.mocachain.org"
+      ],
+      "feeModel": "unreviewed",
+      "sourceRestriction": "조회 전용 · 이 체인의 수수료/트랜잭션 방식은 아직 검토하지 않아 출발 전송을 지원하지 않습니다.",
+      "protocol": {
+        "endpoint": "0x6f475642a6e85809b1c36fa62763669b1b48dd5b",
+        "sendLibrary": "0xc39161c743d0307eb9bcc9fef03eeb9dc4802de7",
+        "receiveLibrary": "0xe1844c5d63a9543023008d332bd3d2e6f1fe1043",
+        "blockedLibrary": "0xc1ce56b2099ca68720592583c7984cab4b6d7e7a",
+        "deadDvn": "0x6788f52439aca6bff597d3eec2dc9a44b8fee842",
+        "executors": [
+          "0x4208d6e27538189bb48e603d6123a94b8abe0a0b",
+          "0x41bdb4aa4a63a5b2efc531858d3118392b1a1c3d"
+        ]
+      }
+    },
+    {
+      "id": 34443,
+      "eid": 30260,
+      "key": "mode",
+      "name": "Mode Mainnet",
+      "shortName": "Mode Mainnet",
+      "symbol": "ETH",
+      "decimals": 18,
+      "explorer": "https://explorer.mode.network",
+      "rpcs": [
+        "https://1rpc.io/mode",
+        "https://mainnet.mode.network",
+        "https://mode.drpc.org"
+      ],
+      "feeModel": "op-stack",
+      "protocol": {
+        "endpoint": "0x1a44076050125825900e736c501f859c50fe728c",
+        "sendLibrary": "0x2367325334447c5e1e0f1b3a6fb947b262f58312",
+        "receiveLibrary": "0xc1b621b18187f74c8f6d52a6f709dd2780c09821",
+        "blockedLibrary": "0x1ccbf0db9c192d969de57e25b3ff09a25bb1d862",
+        "deadDvn": "0x7b9e184e07a6ee1ac23eae0fe8d6be2f663f05e6",
+        "executors": [
+          "0x4208d6e27538189bb48e603d6123a94b8abe0a0b",
+          "0x41bdb4aa4a63a5b2efc531858d3118392b1a1c3d"
+        ]
+      }
+    },
+    {
+      "id": 143,
+      "eid": 30390,
+      "key": "monad",
+      "name": "Monad",
+      "shortName": "Monad",
+      "symbol": "MON",
+      "decimals": 18,
+      "explorer": "https://monadscan.com",
+      "rpcs": [
+        "https://monad-mainnet.drpc.org",
+        "https://rpc.monad.xyz",
+        "https://monad-mainnet-rpc.spidernode.net"
+      ],
+      "feeModel": "standard",
+      "protocol": {
+        "endpoint": "0x6f475642a6e85809b1c36fa62763669b1b48dd5b",
+        "sendLibrary": "0xc39161c743d0307eb9bcc9fef03eeb9dc4802de7",
+        "receiveLibrary": "0xe1844c5d63a9543023008d332bd3d2e6f1fe1043",
+        "blockedLibrary": "0xc1ce56b2099ca68720592583c7984cab4b6d7e7a",
+        "deadDvn": "0x6788f52439aca6bff597d3eec2dc9a44b8fee842",
+        "executors": [
+          "0x4208d6e27538189bb48e603d6123a94b8abe0a0b",
+          "0x41bdb4aa4a63a5b2efc531858d3118392b1a1c3d"
+        ]
+      }
+    },
+    {
+      "id": 2818,
+      "eid": 30322,
+      "key": "morph",
+      "name": "Morph",
+      "shortName": "Morph",
+      "symbol": "ETH",
+      "decimals": 18,
+      "explorer": "https://explorer.morphl2.io",
+      "rpcs": [
+        "https://rpc-quicknode.morphl2.io",
+        "https://rpc.morphl2.io"
+      ],
+      "feeModel": "unreviewed",
+      "sourceRestriction": "조회 전용 · 이 체인의 수수료/트랜잭션 방식은 아직 검토하지 않아 출발 전송을 지원하지 않습니다.",
+      "protocol": {
+        "endpoint": "0x6f475642a6e85809b1c36fa62763669b1b48dd5b",
+        "sendLibrary": "0xc39161c743d0307eb9bcc9fef03eeb9dc4802de7",
+        "receiveLibrary": "0xe1844c5d63a9543023008d332bd3d2e6f1fe1043",
+        "blockedLibrary": "0xc1ce56b2099ca68720592583c7984cab4b6d7e7a",
+        "deadDvn": "0x9c061c9a4782294eef65ef28cb88233a987f4bdd",
+        "executors": [
+          "0xcce466a522984415bc91338c232d98869193d46e",
+          "0xa20db4ffe74a31d17fc24bd32a7dd7555441058e"
+        ]
+      }
+    },
+    {
+      "id": 47763,
+      "eid": 30414,
+      "key": "neox",
+      "name": "Neo X Mainnet",
+      "shortName": "Neo X Mainnet",
+      "symbol": "GAS",
+      "decimals": 18,
+      "explorer": "https://xexplorer.neo.org",
+      "rpcs": [
+        "https://mainnet-1.rpc.banelabs.org",
+        "https://mainnet-2.rpc.banelabs.org"
+      ],
+      "feeModel": "unreviewed",
+      "sourceRestriction": "조회 전용 · 이 체인의 수수료/트랜잭션 방식은 아직 검토하지 않아 출발 전송을 지원하지 않습니다.",
+      "protocol": {
+        "endpoint": "0x6f475642a6e85809b1c36fa62763669b1b48dd5b",
+        "sendLibrary": "0x37aaaf95887624a363effb7762d489e3c05c2a02",
+        "receiveLibrary": "0x15e51701f245f6d5bd0fee87bcaf55b0841451b3",
+        "blockedLibrary": "0xc1ce56b2099ca68720592583c7984cab4b6d7e7a",
+        "deadDvn": "0xce8358bc28dd8296ce8caf1cd2b44787abd65887",
+        "executors": [
+          "0x4208d6e27538189bb48e603d6123a94b8abe0a0b",
+          "0x41bdb4aa4a63a5b2efc531858d3118392b1a1c3d"
+        ]
+      }
+    },
+    {
+      "id": 6900,
+      "eid": 30369,
+      "key": "nibiru",
+      "name": "Nibiru",
+      "shortName": "Nibiru",
+      "symbol": "NIBI",
+      "decimals": 18,
+      "explorer": "https://nibiscan.io",
+      "rpcs": [
+        "https://evm-rpc.nibiru.fi"
+      ],
+      "feeModel": "standard",
+      "protocol": {
+        "endpoint": "0x2a5e79dee6e3544588bb3b675b1cc3354df2aefd",
+        "sendLibrary": "0xd1fa2df582c6c986ec573e1a3b0218049cf1e5c7",
+        "receiveLibrary": "0xeb8b16d080b0fcb0c6a89544f4dd31e595382e8b",
+        "blockedLibrary": "0xf540d892bc671f08e0b1c5b61185c53c2211e8f7",
+        "deadDvn": "0x3823094993190fbb3bfabfec8365b8c18517566f",
+        "executors": [
+          "0x6a02d83e8d433304bba74ef1c427913958187142",
+          "0xcd3f213ad101472e1713c72b1697e727c803885b"
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "eid": 30111,
+      "key": "optimism",
+      "name": "OP Mainnet",
+      "shortName": "OP Mainnet",
+      "symbol": "ETH",
+      "decimals": 18,
+      "explorer": "https://optimistic.etherscan.io",
+      "rpcs": [
+        "https://optimism-rpc.publicnode.com",
+        "https://1rpc.io/op",
+        "https://optimism.gateway.tenderly.co"
+      ],
+      "feeModel": "op-stack",
+      "protocol": {
+        "endpoint": "0x1a44076050125825900e736c501f859c50fe728c",
+        "sendLibrary": "0x1322871e4ab09bc7f5717189434f97bbd9546e95",
+        "receiveLibrary": "0x3c4962ff6258dcfcafd23a814237b7d6eb712063",
+        "blockedLibrary": "0x1ccbf0db9c192d969de57e25b3ff09a25bb1d862",
+        "deadDvn": "0xebc3065003e67caac747836da272d9e5271a37e1",
+        "executors": [
+          "0x2d2ea0697bdbede3f01553d2ae4b8d0c486b666e",
+          "0xb02763373589c440ed6ff32f47cf4b81ca285d01"
+        ]
+      }
+    },
+    {
+      "id": 204,
+      "eid": 30202,
+      "key": "opbnb",
+      "name": "opBNB",
+      "shortName": "opBNB",
+      "symbol": "BNB",
+      "decimals": 18,
+      "explorer": "https://opbnbscan.com",
+      "rpcs": [
+        "https://opbnb-rpc.publicnode.com",
+        "https://opbnb.publicnode.com",
+        "https://1rpc.io/opbnb"
+      ],
+      "feeModel": "unreviewed",
+      "sourceRestriction": "조회 전용 · 이 체인의 수수료/트랜잭션 방식은 아직 검토하지 않아 출발 전송을 지원하지 않습니다.",
+      "protocol": {
+        "endpoint": "0x1a44076050125825900e736c501f859c50fe728c",
+        "sendLibrary": "0x44289609cc6781fa2c665796b6c5aabf9ffcedc5",
+        "receiveLibrary": "0x9c9e25f9fc4e8134313c2a9f5c719f5c9f4fbd95",
+        "blockedLibrary": "0x1ccbf0db9c192d969de57e25b3ff09a25bb1d862",
+        "deadDvn": "0xd0a9ec7544106258c5836121fa032ae65c83f99b",
+        "executors": [
+          "0xacbd57daaafb7d9798992a7b0382fc67d3e316f3",
+          "0x2f64656569c098fdfb0bd0ab2f3616005e295810"
+        ]
+      }
+    },
+    {
+      "id": 1612,
+      "eid": 30392,
+      "key": "openledger",
+      "name": "OpenLedger",
+      "shortName": "OpenLedger",
+      "symbol": "OPEN",
+      "decimals": 18,
+      "explorer": "https://scan.openledger.xyz",
+      "rpcs": [
+        "https://rpc.openledger.xyz"
+      ],
+      "feeModel": "unreviewed",
+      "sourceRestriction": "조회 전용 · 이 체인의 수수료/트랜잭션 방식은 아직 검토하지 않아 출발 전송을 지원하지 않습니다.",
+      "protocol": {
+        "endpoint": "0x3a73033c0b1407574c76bdbac67f126f6b4a9aa9",
+        "sendLibrary": "0x2367325334447c5e1e0f1b3a6fb947b262f58312",
+        "receiveLibrary": "0xc1b621b18187f74c8f6d52a6f709dd2780c09821",
+        "blockedLibrary": "0xf540d892bc671f08e0b1c5b61185c53c2211e8f7",
+        "deadDvn": "0xce8358bc28dd8296ce8caf1cd2b44787abd65887",
+        "executors": [
+          "0x41bdb4aa4a63a5b2efc531858d3118392b1a1c3d",
+          "0x306b9a8953b9462f8b826e6768a93c8ea7454965"
+        ]
+      }
+    },
+    {
+      "id": 291,
+      "eid": 30213,
+      "key": "orderly",
+      "name": "Orderly",
+      "shortName": "Orderly",
+      "symbol": "ETH",
+      "decimals": 18,
+      "explorer": "https://explorer.orderly.network",
+      "rpcs": [
+        "https://rpc.orderly.network"
+      ],
+      "feeModel": "unreviewed",
+      "sourceRestriction": "조회 전용 · 이 체인의 수수료/트랜잭션 방식은 아직 검토하지 않아 출발 전송을 지원하지 않습니다.",
+      "protocol": {
+        "endpoint": "0x1a44076050125825900e736c501f859c50fe728c",
+        "sendLibrary": "0x5b23e2bae5c5f00e804ea2c4c9abe601604378fa",
+        "receiveLibrary": "0xcff08a35a5f27f306e2da99ff198db90f13def77",
+        "blockedLibrary": "0x1ccbf0db9c192d969de57e25b3ff09a25bb1d862",
+        "deadDvn": "0x690b1857eaa8c55850547d7c22148c0b99a71dcd",
+        "executors": [
+          "0x1ace9dd1bc743ad036ef2d92af42ca70a1159df5",
+          "0xe9ae261d3aff7d3fccf38fa2d612dd3897e07b2d"
+        ]
+      }
+    },
+    {
+      "id": 3338,
+      "eid": 30302,
+      "key": "peaq",
+      "name": "Peaq",
+      "shortName": "Peaq",
+      "symbol": "PEAQ",
+      "decimals": 18,
+      "explorer": "https://peaq.subscan.io",
+      "rpcs": [
+        "https://quicknode1.peaq.xyz",
+        "https://quicknode2.peaq.xyz",
+        "https://quicknode3.peaq.xyz"
+      ],
+      "feeModel": "standard",
+      "protocol": {
+        "endpoint": "0x6f475642a6e85809b1c36fa62763669b1b48dd5b",
+        "sendLibrary": "0xc39161c743d0307eb9bcc9fef03eeb9dc4802de7",
+        "receiveLibrary": "0xe1844c5d63a9543023008d332bd3d2e6f1fe1043",
+        "blockedLibrary": "0xc1ce56b2099ca68720592583c7984cab4b6d7e7a",
+        "deadDvn": "0x9c061c9a4782294eef65ef28cb88233a987f4bdd",
+        "executors": [
+          "0xcce466a522984415bc91338c232d98869193d46e",
+          "0xa20db4ffe74a31d17fc24bd32a7dd7555441058e"
+        ]
+      }
+    },
+    {
+      "id": 9745,
+      "eid": 30383,
+      "key": "plasma",
+      "name": "Plasma",
+      "shortName": "Plasma",
+      "symbol": "XPL",
+      "decimals": 18,
+      "explorer": "https://plasmascan.to",
+      "rpcs": [
+        "https://plasma.drpc.org",
+        "https://rpc.plasma.to"
+      ],
+      "feeModel": "standard",
+      "protocol": {
+        "endpoint": "0x6f475642a6e85809b1c36fa62763669b1b48dd5b",
+        "sendLibrary": "0xc39161c743d0307eb9bcc9fef03eeb9dc4802de7",
+        "receiveLibrary": "0xe1844c5d63a9543023008d332bd3d2e6f1fe1043",
+        "blockedLibrary": "0xc1ce56b2099ca68720592583c7984cab4b6d7e7a",
+        "deadDvn": "0x6788f52439aca6bff597d3eec2dc9a44b8fee842",
+        "executors": [
+          "0x4208d6e27538189bb48e603d6123a94b8abe0a0b",
+          "0x41bdb4aa4a63a5b2efc531858d3118392b1a1c3d"
+        ]
+      }
+    },
+    {
+      "id": 98866,
+      "eid": 30370,
+      "key": "plumephoenix",
+      "name": "Plume",
+      "shortName": "Plume",
+      "symbol": "PLUME",
+      "decimals": 18,
+      "explorer": "https://phoenix-explorer.plumenetwork.xyz",
+      "rpcs": [
+        "https://plume.drpc.org",
+        "https://rpc.plume.org"
+      ],
+      "feeModel": "arbitrum",
+      "protocol": {
+        "endpoint": "0xc1b15d3b262beec0e3565c11c9e0f6134bdacb36",
+        "sendLibrary": "0xfe7c30860d01e28371d40434806f4a8fcdd3a098",
+        "receiveLibrary": "0x5b19bd330a84c049b62d5b0fc2ba120217a18c1c",
+        "blockedLibrary": "0x9e611db91ade3312534064ae6ae700f5b531844c",
+        "deadDvn": "0x4514fc667a944752ee8a29f544c1b20b1a315f25",
+        "executors": [
+          "0x41bdb4aa4a63a5b2efc531858d3118392b1a1c3d",
+          "0x306b9a8953b9462f8b826e6768a93c8ea7454965"
+        ]
+      }
+    },
+    {
+      "id": 137,
+      "eid": 30109,
+      "key": "polygon",
+      "name": "Polygon",
+      "shortName": "Polygon",
+      "symbol": "POL",
+      "decimals": 18,
+      "explorer": "https://polygonscan.com",
+      "rpcs": [
+        "https://polygon-bor-rpc.publicnode.com",
+        "https://1rpc.io/matic",
+        "https://gateway.tenderly.co/public/polygon"
+      ],
+      "feeModel": "standard",
+      "protocol": {
+        "endpoint": "0x1a44076050125825900e736c501f859c50fe728c",
+        "sendLibrary": "0x6c26c61a97006888ea9e4fa36584c7df57cd9da3",
+        "receiveLibrary": "0x1322871e4ab09bc7f5717189434f97bbd9546e95",
+        "blockedLibrary": "0x1ccbf0db9c192d969de57e25b3ff09a25bb1d862",
+        "deadDvn": "0x43cfcc293cdf99f7d021f21ffd443f174ab0e843",
+        "executors": [
+          "0xcd3f213ad101472e1713c72b1697e727c803885b",
+          "0xe25741bda30bb79a66adf656e7f2d3f0c4fb3191"
+        ]
+      }
+    },
+    {
+      "id": 72957,
+      "eid": 30415,
+      "key": "rayls",
+      "name": "rayls",
+      "shortName": "rayls",
+      "symbol": "USDr",
+      "decimals": 18,
+      "explorer": "https://explorer.rayls.com",
+      "rpcs": [],
+      "feeModel": "unreviewed",
+      "sourceRestriction": "조회 전용 · 이 체인의 수수료/트랜잭션 방식은 아직 검토하지 않아 출발 전송을 지원하지 않습니다.",
+      "protocol": {
+        "endpoint": "0x6f475642a6e85809b1c36fa62763669b1b48dd5b",
+        "sendLibrary": "0xc39161c743d0307eb9bcc9fef03eeb9dc4802de7",
+        "receiveLibrary": "0xe1844c5d63a9543023008d332bd3d2e6f1fe1043",
+        "blockedLibrary": "0xc1ce56b2099ca68720592583c7984cab4b6d7e7a",
+        "deadDvn": "0x6788f52439aca6bff597d3eec2dc9a44b8fee842",
+        "executors": [
+          "0x4208d6e27538189bb48e603d6123a94b8abe0a0b",
+          "0x41bdb4aa4a63a5b2efc531858d3118392b1a1c3d"
+        ]
+      }
+    },
+    {
+      "id": 151,
+      "eid": 30402,
+      "key": "redbelly",
+      "name": "Redbelly Network Mainnet",
+      "shortName": "Redbelly Network Mainnet",
+      "symbol": "RBNT",
+      "decimals": 18,
+      "explorer": "https://redbelly.routescan.io",
+      "rpcs": [
+        "https://governors.mainnet.redbelly.network"
+      ],
+      "feeModel": "unreviewed",
+      "sourceRestriction": "조회 전용 · 이 체인의 수수료/트랜잭션 방식은 아직 검토하지 않아 출발 전송을 지원하지 않습니다.",
+      "protocol": {
+        "endpoint": "0x6f475642a6e85809b1c36fa62763669b1b48dd5b",
+        "sendLibrary": "0xc39161c743d0307eb9bcc9fef03eeb9dc4802de7",
+        "receiveLibrary": "0xe1844c5d63a9543023008d332bd3d2e6f1fe1043",
+        "blockedLibrary": "0xc1ce56b2099ca68720592583c7984cab4b6d7e7a",
+        "deadDvn": "0x6788f52439aca6bff597d3eec2dc9a44b8fee842",
+        "executors": [
+          "0x4208d6e27538189bb48e603d6123a94b8abe0a0b",
+          "0x41bdb4aa4a63a5b2efc531858d3118392b1a1c3d"
+        ]
+      }
+    },
+    {
+      "id": 1729,
+      "eid": 30313,
+      "key": "reya",
+      "name": "Reya Network",
+      "shortName": "Reya Network",
+      "symbol": "ETH",
+      "decimals": 18,
+      "explorer": "https://explorer.reya.network",
+      "rpcs": [
+        "https://rpc.reya.network"
+      ],
+      "feeModel": "arbitrum",
+      "protocol": {
+        "endpoint": "0x6f475642a6e85809b1c36fa62763669b1b48dd5b",
+        "sendLibrary": "0xc39161c743d0307eb9bcc9fef03eeb9dc4802de7",
+        "receiveLibrary": "0xe1844c5d63a9543023008d332bd3d2e6f1fe1043",
+        "blockedLibrary": "0xc1ce56b2099ca68720592583c7984cab4b6d7e7a",
+        "deadDvn": "0x9c061c9a4782294eef65ef28cb88233a987f4bdd",
+        "executors": [
+          "0xcce466a522984415bc91338c232d98869193d46e",
+          "0xa20db4ffe74a31d17fc24bd32a7dd7555441058e"
+        ]
+      }
+    },
+    {
+      "id": 4153,
+      "eid": 30401,
+      "key": "rise",
+      "name": "RISE",
+      "shortName": "RISE",
+      "symbol": "ETH",
+      "decimals": 18,
+      "explorer": "https://explorer.risechain.com",
+      "rpcs": [
+        "https://rpc.risechain.com"
+      ],
+      "feeModel": "unreviewed",
+      "sourceRestriction": "조회 전용 · 이 체인의 수수료/트랜잭션 방식은 아직 검토하지 않아 출발 전송을 지원하지 않습니다.",
+      "protocol": {
+        "endpoint": "0x6f475642a6e85809b1c36fa62763669b1b48dd5b",
+        "sendLibrary": "0xc39161c743d0307eb9bcc9fef03eeb9dc4802de7",
+        "receiveLibrary": "0xe1844c5d63a9543023008d332bd3d2e6f1fe1043",
+        "blockedLibrary": "0xc1ce56b2099ca68720592583c7984cab4b6d7e7a",
+        "deadDvn": "0x6788f52439aca6bff597d3eec2dc9a44b8fee842",
+        "executors": [
+          "0x4208d6e27538189bb48e603d6123a94b8abe0a0b",
+          "0x41bdb4aa4a63a5b2efc531858d3118392b1a1c3d"
+        ]
+      }
+    },
+    {
+      "id": 4663,
+      "eid": 30416,
+      "key": "robinhood",
+      "name": "Robinhood Chain",
+      "shortName": "Robinhood Chain",
+      "symbol": "ETH",
+      "decimals": 18,
+      "explorer": "https://robinhoodchain.blockscout.com",
+      "rpcs": [
+        "https://rpc.mainnet.chain.robinhood.com"
+      ],
+      "feeModel": "unreviewed",
+      "sourceRestriction": "조회 전용 · 이 체인의 수수료/트랜잭션 방식은 아직 검토하지 않아 출발 전송을 지원하지 않습니다.",
+      "protocol": {
+        "endpoint": "0x6f475642a6e85809b1c36fa62763669b1b48dd5b",
+        "sendLibrary": "0xc39161c743d0307eb9bcc9fef03eeb9dc4802de7",
+        "receiveLibrary": "0xe1844c5d63a9543023008d332bd3d2e6f1fe1043",
+        "blockedLibrary": "0xc1ce56b2099ca68720592583c7984cab4b6d7e7a",
+        "deadDvn": "0x6788f52439aca6bff597d3eec2dc9a44b8fee842",
+        "executors": [
+          "0x4208d6e27538189bb48e603d6123a94b8abe0a0b",
+          "0x41bdb4aa4a63a5b2efc531858d3118392b1a1c3d"
+        ]
+      }
+    },
+    {
+      "id": 30,
+      "eid": 30333,
+      "key": "rootstock",
+      "name": "Rootstock Mainnet",
+      "shortName": "Rootstock Mainnet",
+      "symbol": "RBTC",
+      "decimals": 18,
+      "explorer": "https://explorer.rootstock.io",
+      "rpcs": [
+        "https://mycrypto.rsk.co",
+        "https://public-node.rsk.co",
+        "https://rootstock.drpc.org"
+      ],
+      "feeModel": "standard",
+      "protocol": {
+        "endpoint": "0xcb566e3b6934fa77258d68ea18e931fa75e1aaaa",
+        "sendLibrary": "0xe1844c5d63a9543023008d332bd3d2e6f1fe1043",
+        "receiveLibrary": "0x2367325334447c5e1e0f1b3a6fb947b262f58312",
+        "blockedLibrary": "0x19a642a780f4cfc27c12c8ac79e586b5007ba8c5",
+        "deadDvn": "0x9c061c9a4782294eef65ef28cb88233a987f4bdd",
+        "executors": [
+          "0xa20db4ffe74a31d17fc24bd32a7dd7555441058e",
+          "0x4b80f7d25c451d204b1c93d9bdf2ab3b04f3ea4a"
+        ]
+      }
+    },
+    {
+      "id": 534352,
+      "eid": 30214,
+      "key": "scroll",
+      "name": "Scroll",
+      "shortName": "Scroll",
+      "symbol": "ETH",
+      "decimals": 18,
+      "explorer": "https://scrollscan.com",
+      "rpcs": [
+        "https://scroll-rpc.publicnode.com",
+        "https://1rpc.io/scroll",
+        "https://rpc.scroll.io"
+      ],
+      "feeModel": "unreviewed",
+      "sourceRestriction": "조회 전용 · 이 체인의 수수료/트랜잭션 방식은 아직 검토하지 않아 출발 전송을 지원하지 않습니다.",
+      "protocol": {
+        "endpoint": "0x1a44076050125825900e736c501f859c50fe728c",
+        "sendLibrary": "0x9bbeb2b2184b9313cf5ed4a4ddfea2ef62a2a03b",
+        "receiveLibrary": "0x8363302080e711e0cab978c081b9e69308d49808",
+        "blockedLibrary": "0x1ccbf0db9c192d969de57e25b3ff09a25bb1d862",
+        "deadDvn": "0xdb238d5196328b5623612c235062427f2f6792c0",
+        "executors": [
+          "0x581b26f362ad383f7b51ef8a165efa13dde398a4",
+          "0x4fc3f4a38acd6e4cc0ccbc04b3dd1ccaefd7f3cd"
+        ]
+      }
+    },
+    {
+      "id": 1329,
+      "eid": 30280,
+      "key": "sei",
+      "name": "Sei Network",
+      "shortName": "Sei Network",
+      "symbol": "SEI",
+      "decimals": 18,
+      "explorer": "https://seiscan.io",
+      "rpcs": [
+        "https://sei.drpc.org",
+        "https://evm-rpc.sei-apis.com",
+        "https://sei-public.nodies.app"
+      ],
+      "feeModel": "standard",
+      "protocol": {
+        "endpoint": "0x1a44076050125825900e736c501f859c50fe728c",
+        "sendLibrary": "0xc39161c743d0307eb9bcc9fef03eeb9dc4802de7",
+        "receiveLibrary": "0xe1844c5d63a9543023008d332bd3d2e6f1fe1043",
+        "blockedLibrary": "0x1ccbf0db9c192d969de57e25b3ff09a25bb1d862",
+        "deadDvn": "0xf772581dcf3300914d6222c4e6fcf0ed5ef93142",
+        "executors": [
+          "0xc097ab8cd7b053326dfe9fb3e3a31a0cce3b526f",
+          "0x4208d6e27538189bb48e603d6123a94b8abe0a0b"
+        ]
+      }
+    },
+    {
+      "id": 5031,
+      "eid": 30380,
+      "key": "somnia",
+      "name": "Somnia",
+      "shortName": "Somnia",
+      "symbol": "SOMI",
+      "decimals": 18,
+      "explorer": "https://mainnet.somnia.w3us.site",
+      "rpcs": [
+        "https://dream-rpc.somnia.network",
+        "https://api.infra.mainnet.somnia.network"
+      ],
+      "feeModel": "standard",
+      "protocol": {
+        "endpoint": "0x6f475642a6e85809b1c36fa62763669b1b48dd5b",
+        "sendLibrary": "0xc39161c743d0307eb9bcc9fef03eeb9dc4802de7",
+        "receiveLibrary": "0xe1844c5d63a9543023008d332bd3d2e6f1fe1043",
+        "blockedLibrary": "0xc1ce56b2099ca68720592583c7984cab4b6d7e7a",
+        "deadDvn": "0x6788f52439aca6bff597d3eec2dc9a44b8fee842",
+        "executors": [
+          "0x4208d6e27538189bb48e603d6123a94b8abe0a0b",
+          "0x41bdb4aa4a63a5b2efc531858d3118392b1a1c3d"
+        ]
+      }
+    },
+    {
+      "id": 1868,
+      "eid": 30340,
+      "key": "soneium",
+      "name": "Soneium Mainnet",
+      "shortName": "Soneium Mainnet",
+      "symbol": "ETH",
+      "decimals": 18,
+      "explorer": "https://soneium.blockscout.com",
+      "rpcs": [
+        "https://soneium.drpc.org",
+        "https://rpc.soneium.org"
+      ],
+      "feeModel": "op-stack",
+      "protocol": {
+        "endpoint": "0x4bcb6a963a9563c33569d7a512d35754221f3a19",
+        "sendLibrary": "0x50351c9da75ccc6d8ea2464b26591bb4bd616dd5",
+        "receiveLibrary": "0x364b548d8e6db7ca84aaafa54595919eccf961ea",
+        "blockedLibrary": "0xe71ed82cb15850147e9886b770d251bf4c807da4",
+        "deadDvn": "0xf90b61aa892ba0433f54d2c1bf594d89d22ed7f6",
+        "executors": [
+          "0xae3c661292bb4d0aeee0588b4404778df1799ee6",
+          "0x7d8a496469dceda40832cf4d7663ccfbcc4784e3"
+        ]
+      }
+    },
+    {
+      "id": 146,
+      "eid": 30332,
+      "key": "sonic",
+      "name": "Sonic",
+      "shortName": "Sonic",
+      "symbol": "S",
+      "decimals": 18,
+      "explorer": "https://sonicscan.org",
+      "rpcs": [
+        "https://sonic-rpc.publicnode.com",
+        "https://sonic.drpc.org",
+        "https://rpc.soniclabs.com"
+      ],
+      "feeModel": "standard",
+      "protocol": {
+        "endpoint": "0x6f475642a6e85809b1c36fa62763669b1b48dd5b",
+        "sendLibrary": "0xc39161c743d0307eb9bcc9fef03eeb9dc4802de7",
+        "receiveLibrary": "0xe1844c5d63a9543023008d332bd3d2e6f1fe1043",
+        "blockedLibrary": "0xc1ce56b2099ca68720592583c7984cab4b6d7e7a",
+        "deadDvn": "0x6788f52439aca6bff597d3eec2dc9a44b8fee842",
+        "executors": [
+          "0x4208d6e27538189bb48e603d6123a94b8abe0a0b",
+          "0x41bdb4aa4a63a5b2efc531858d3118392b1a1c3d"
+        ]
+      }
+    },
+    {
+      "id": 8227,
+      "eid": 30341,
+      "key": "space",
+      "name": "space",
+      "shortName": "space",
+      "symbol": "USDC",
+      "decimals": 18,
+      "explorer": "https://subnets.avax.network/space",
+      "rpcs": [
+        "https://subnets.avax.network/space/mainnet/rpc"
+      ],
+      "feeModel": "unreviewed",
+      "sourceRestriction": "조회 전용 · 이 체인의 수수료/트랜잭션 방식은 아직 검토하지 않아 출발 전송을 지원하지 않습니다.",
+      "protocol": {
+        "endpoint": "0xaab5a48cfc03efa9cc34a2c1aacccb84b4b770e4",
+        "sendLibrary": "0xc1b621b18187f74c8f6d52a6f709dd2780c09821",
+        "receiveLibrary": "0x377530cda84dfb2673bf4d145dcf0c4d7fdcb5b6",
+        "blockedLibrary": "0x3adb8d9c040fae1fbac9b579799cd4ca8c768f8a",
+        "deadDvn": "0x282b3386571f7f794450d5789911a9804fa346b4",
+        "executors": [
+          "0xcce466a522984415bc91338c232d98869193d46e",
+          "0xa20db4ffe74a31d17fc24bd32a7dd7555441058e"
+        ]
+      }
+    },
+    {
+      "id": 988,
+      "eid": 30396,
+      "key": "stable",
+      "name": "Stable Mainnet",
+      "shortName": "Stable Mainnet",
+      "symbol": "USDT0",
+      "decimals": 18,
+      "explorer": "https://stablescan.xyz",
+      "rpcs": [
+        "https://rpc.stable.xyz"
+      ],
+      "feeModel": "unreviewed",
+      "sourceRestriction": "조회 전용 · 이 체인의 수수료/트랜잭션 방식은 아직 검토하지 않아 출발 전송을 지원하지 않습니다.",
+      "protocol": {
+        "endpoint": "0x6f475642a6e85809b1c36fa62763669b1b48dd5b",
+        "sendLibrary": "0x37aaaf95887624a363effb7762d489e3c05c2a02",
+        "receiveLibrary": "0x15e51701f245f6d5bd0fee87bcaf55b0841451b3",
+        "blockedLibrary": "0xc1ce56b2099ca68720592583c7984cab4b6d7e7a",
+        "deadDvn": "0xce8358bc28dd8296ce8caf1cd2b44787abd65887",
+        "executors": [
+          "0x4208d6e27538189bb48e603d6123a94b8abe0a0b",
+          "0x41bdb4aa4a63a5b2efc531858d3118392b1a1c3d"
+        ]
+      }
+    },
+    {
+      "id": 964,
+      "eid": 30374,
+      "key": "subtensorevm",
+      "name": "Subtensor EVM",
+      "shortName": "Subtensor EVM",
+      "symbol": "TAO",
+      "decimals": 18,
+      "explorer": "https://evm.tao.app",
+      "rpcs": [
+        "https://lite.chain.opentensor.ai",
+        "https://bittensor-lite-public.nodies.app"
+      ],
+      "feeModel": "standard",
+      "protocol": {
+        "endpoint": "0x6f475642a6e85809b1c36fa62763669b1b48dd5b",
+        "sendLibrary": "0xc39161c743d0307eb9bcc9fef03eeb9dc4802de7",
+        "receiveLibrary": "0xe1844c5d63a9543023008d332bd3d2e6f1fe1043",
+        "blockedLibrary": "0xc1ce56b2099ca68720592583c7984cab4b6d7e7a",
+        "deadDvn": "0x6788f52439aca6bff597d3eec2dc9a44b8fee842",
+        "executors": [
+          "0x4208d6e27538189bb48e603d6123a94b8abe0a0b",
+          "0x41bdb4aa4a63a5b2efc531858d3118392b1a1c3d"
+        ]
+      }
+    },
+    {
+      "id": 55244,
+      "eid": 30327,
+      "key": "superposition",
+      "name": "Superposition",
+      "shortName": "Superposition",
+      "symbol": "ETH",
+      "decimals": 18,
+      "explorer": "https://explorer.superposition.so",
+      "rpcs": [
+        "https://rpc.superposition.so"
+      ],
+      "feeModel": "arbitrum",
+      "protocol": {
+        "endpoint": "0x6f475642a6e85809b1c36fa62763669b1b48dd5b",
+        "sendLibrary": "0xc39161c743d0307eb9bcc9fef03eeb9dc4802de7",
+        "receiveLibrary": "0xe1844c5d63a9543023008d332bd3d2e6f1fe1043",
+        "blockedLibrary": "0xc1ce56b2099ca68720592583c7984cab4b6d7e7a",
+        "deadDvn": "0x6788f52439aca6bff597d3eec2dc9a44b8fee842",
+        "executors": [
+          "0x4208d6e27538189bb48e603d6123a94b8abe0a0b",
+          "0x41bdb4aa4a63a5b2efc531858d3118392b1a1c3d"
+        ]
+      }
+    },
+    {
+      "id": 239,
+      "eid": 30377,
+      "key": "tac",
+      "name": "TAC",
+      "shortName": "TAC",
+      "symbol": "TAC",
+      "decimals": 18,
+      "explorer": "https://tac.blockscout.com",
+      "rpcs": [
+        "https://rpc.ankr.com/tac",
+        "https://rpc.tac.build"
+      ],
+      "feeModel": "standard",
+      "protocol": {
+        "endpoint": "0x6f475642a6e85809b1c36fa62763669b1b48dd5b",
+        "sendLibrary": "0xc39161c743d0307eb9bcc9fef03eeb9dc4802de7",
+        "receiveLibrary": "0xe1844c5d63a9543023008d332bd3d2e6f1fe1043",
+        "blockedLibrary": "0xc1ce56b2099ca68720592583c7984cab4b6d7e7a",
+        "deadDvn": "0x6788f52439aca6bff597d3eec2dc9a44b8fee842",
+        "executors": [
+          "0x4208d6e27538189bb48e603d6123a94b8abe0a0b",
+          "0x41bdb4aa4a63a5b2efc531858d3118392b1a1c3d"
+        ]
+      }
+    },
+    {
+      "id": 167000,
+      "eid": 30290,
+      "key": "taiko",
+      "name": "Taiko Mainnet",
+      "shortName": "Taiko Mainnet",
+      "symbol": "ETH",
+      "decimals": 18,
+      "explorer": "https://taikoscan.io",
+      "rpcs": [
+        "https://taiko-rpc.publicnode.com",
+        "https://rpc.ankr.com/taiko",
+        "https://rpc.taiko.xyz"
+      ],
+      "feeModel": "unreviewed",
+      "sourceRestriction": "조회 전용 · 이 체인의 수수료/트랜잭션 방식은 아직 검토하지 않아 출발 전송을 지원하지 않습니다.",
+      "protocol": {
+        "endpoint": "0x1a44076050125825900e736c501f859c50fe728c",
+        "sendLibrary": "0xc1b621b18187f74c8f6d52a6f709dd2780c09821",
+        "receiveLibrary": "0x377530cda84dfb2673bf4d145dcf0c4d7fdcb5b6",
+        "blockedLibrary": "0x1ccbf0db9c192d969de57e25b3ff09a25bb1d862",
+        "deadDvn": "0xc30ff4f3182a75c0be27493fa357886c06c384b6",
+        "executors": [
+          "0xa20db4ffe74a31d17fc24bd32a7dd7555441058e",
+          "0x4b80f7d25c451d204b1c93d9bdf2ab3b04f3ea4a"
+        ]
+      }
+    },
+    {
+      "id": 40,
+      "eid": 30199,
+      "key": "telos",
+      "name": "Telos",
+      "shortName": "Telos",
+      "symbol": "TLOS",
+      "decimals": 18,
+      "explorer": "https://www.teloscan.io",
+      "rpcs": [
+        "https://rpc.ankr.com/telos",
+        "https://1rpc.io/telos/evm",
+        "https://rpc.telos.net"
+      ],
+      "feeModel": "standard",
+      "protocol": {
+        "endpoint": "0x1a44076050125825900e736c501f859c50fe728c",
+        "sendLibrary": "0x0bcac336466ef7f1e0b5c184aab2867c108331af",
+        "receiveLibrary": "0x8f76bacc52b5730c1f1a2413b8936d4df12af4f6",
+        "blockedLibrary": "0x1ccbf0db9c192d969de57e25b3ff09a25bb1d862",
+        "deadDvn": "0x1de78bed411ad03e7f9b4c591d9c80499287cb04",
+        "executors": [
+          "0x1785c94d31e3e3ab1079e7ca8a9fbdf33eef9dd5",
+          "0x53490de975969b34e537e541e19f26b15e368895"
+        ]
+      }
+    },
+    {
+      "id": 130,
+      "eid": 30320,
+      "key": "unichain",
+      "name": "Unichain",
+      "shortName": "Unichain",
+      "symbol": "ETH",
+      "decimals": 18,
+      "explorer": "https://uniscan.xyz",
+      "rpcs": [
+        "https://unichain-rpc.publicnode.com",
+        "https://unichain.drpc.org",
+        "https://mainnet.unichain.org"
+      ],
+      "feeModel": "op-stack",
+      "protocol": {
+        "endpoint": "0x6f475642a6e85809b1c36fa62763669b1b48dd5b",
+        "sendLibrary": "0xc39161c743d0307eb9bcc9fef03eeb9dc4802de7",
+        "receiveLibrary": "0xe1844c5d63a9543023008d332bd3d2e6f1fe1043",
+        "blockedLibrary": "0xc1ce56b2099ca68720592583c7984cab4b6d7e7a",
+        "deadDvn": "0x6788f52439aca6bff597d3eec2dc9a44b8fee842",
+        "executors": [
+          "0x4208d6e27538189bb48e603d6123a94b8abe0a0b",
+          "0x41bdb4aa4a63a5b2efc531858d3118392b1a1c3d"
+        ]
+      }
+    },
+    {
+      "id": 1480,
+      "eid": 30330,
+      "key": "islander",
+      "name": "Vana",
+      "shortName": "Vana",
+      "symbol": "VANA",
+      "decimals": 18,
+      "explorer": "https://vanascan.io",
+      "rpcs": [
+        "https://rpc.vana.org",
+        "https://rpc.vana.org/"
+      ],
+      "feeModel": "standard",
+      "protocol": {
+        "endpoint": "0xcb566e3b6934fa77258d68ea18e931fa75e1aaaa",
+        "sendLibrary": "0xe1844c5d63a9543023008d332bd3d2e6f1fe1043",
+        "receiveLibrary": "0x2367325334447c5e1e0f1b3a6fb947b262f58312",
+        "blockedLibrary": "0x26463a4af811c256f669524ec2dc1ba7e7a83c37",
+        "deadDvn": "0x9c061c9a4782294eef65ef28cb88233a987f4bdd",
+        "executors": [
+          "0xa20db4ffe74a31d17fc24bd32a7dd7555441058e",
+          "0x4b80f7d25c451d204b1c93d9bdf2ab3b04f3ea4a"
+        ]
+      }
+    },
+    {
+      "id": 88,
+      "eid": 30196,
+      "key": "tomo",
+      "name": "Viction",
+      "shortName": "Viction",
+      "symbol": "VIC",
+      "decimals": 18,
+      "explorer": "https://tomoscan.io",
+      "rpcs": [
+        "https://viction.drpc.org",
+        "https://viction.blockpi.network/v1/rpc/public",
+        "https://rpc.viction.xyz"
+      ],
+      "feeModel": "standard",
+      "protocol": {
+        "endpoint": "0x1a44076050125825900e736c501f859c50fe728c",
+        "sendLibrary": "0x6f1686189f32e78f1d83e7c6ed433fcebc3a5b51",
+        "receiveLibrary": "0x7004396c99d5690da76a7c59057c5f3a53e01704",
+        "blockedLibrary": "0x1ccbf0db9c192d969de57e25b3ff09a25bb1d862",
+        "deadDvn": "0x658ff096ee44e16564bea9e1161ecbc503ae6e75",
+        "executors": [
+          "0x2d24207f9c1f77b2e08f2c3ad430da18e355cf66",
+          "0xa09db5142654e3eb5cf547d66833fae7097b21c3"
+        ]
+      }
+    },
+    {
+      "id": 480,
+      "eid": 30319,
+      "key": "worldchain",
+      "name": "World Chain",
+      "shortName": "World Chain",
+      "symbol": "ETH",
+      "decimals": 18,
+      "explorer": "https://worldchain-mainnet.explorer.alchemy.com",
+      "rpcs": [
+        "https://480.rpc.thirdweb.com",
+        "https://worldchain-mainnet.gateway.tenderly.co",
+        "https://worldchain.drpc.org"
+      ],
+      "feeModel": "op-stack",
+      "protocol": {
+        "endpoint": "0x6f475642a6e85809b1c36fa62763669b1b48dd5b",
+        "sendLibrary": "0xc39161c743d0307eb9bcc9fef03eeb9dc4802de7",
+        "receiveLibrary": "0xe1844c5d63a9543023008d332bd3d2e6f1fe1043",
+        "blockedLibrary": "0xc1ce56b2099ca68720592583c7984cab4b6d7e7a",
+        "deadDvn": "0x9c061c9a4782294eef65ef28cb88233a987f4bdd",
+        "executors": [
+          "0xcce466a522984415bc91338c232d98869193d46e",
+          "0xa20db4ffe74a31d17fc24bd32a7dd7555441058e"
+        ]
+      }
+    },
+    {
+      "id": 196,
+      "eid": 30274,
+      "key": "xlayer",
+      "name": "X Layer Mainnet",
+      "shortName": "X Layer Mainnet",
+      "symbol": "OKB",
+      "decimals": 18,
+      "explorer": "https://www.oklink.com/xlayer",
+      "rpcs": [
+        "https://rpc.ankr.com/xlayer",
+        "https://xlayer.drpc.org",
+        "https://xlayerrpc.okx.com"
+      ],
+      "feeModel": "unreviewed",
+      "sourceRestriction": "조회 전용 · 이 체인의 수수료/트랜잭션 방식은 아직 검토하지 않아 출발 전송을 지원하지 않습니다.",
+      "protocol": {
+        "endpoint": "0x1a44076050125825900e736c501f859c50fe728c",
+        "sendLibrary": "0xe1844c5d63a9543023008d332bd3d2e6f1fe1043",
+        "receiveLibrary": "0x2367325334447c5e1e0f1b3a6fb947b262f58312",
+        "blockedLibrary": "0x1ccbf0db9c192d969de57e25b3ff09a25bb1d862",
+        "deadDvn": "0xac9dc8415b2348d8135ec725e8e9b1f1dfaf8e53",
+        "executors": [
+          "0xcce466a522984415bc91338c232d98869193d46e",
+          "0xa20db4ffe74a31d17fc24bd32a7dd7555441058e"
+        ]
+      }
+    },
+    {
+      "id": 660279,
+      "eid": 30236,
+      "key": "xai",
+      "name": "Xai Mainnet",
+      "shortName": "Xai Mainnet",
+      "symbol": "XAI",
+      "decimals": 18,
+      "explorer": "https://explorer.xai-chain.net",
+      "rpcs": [
+        "https://rpc.ankr.com/xai",
+        "https://xai-chain.net/rpc"
+      ],
+      "feeModel": "arbitrum",
+      "protocol": {
+        "endpoint": "0x1a44076050125825900e736c501f859c50fe728c",
+        "sendLibrary": "0xe1844c5d63a9543023008d332bd3d2e6f1fe1043",
+        "receiveLibrary": "0x2367325334447c5e1e0f1b3a6fb947b262f58312",
+        "blockedLibrary": "0x1ccbf0db9c192d969de57e25b3ff09a25bb1d862",
+        "deadDvn": "0xeff272433131a0077592f58a16b702ee49b04312",
+        "executors": [
+          "0xcce466a522984415bc91338c232d98869193d46e",
+          "0xa20db4ffe74a31d17fc24bd32a7dd7555441058e"
+        ]
+      }
+    },
+    {
+      "id": 50,
+      "eid": 30365,
+      "key": "xdc",
+      "name": "XDC Network",
+      "shortName": "XDC Network",
+      "symbol": "XDC",
+      "decimals": 18,
+      "explorer": "https://xdcscan.com",
+      "rpcs": [
+        "https://rpc.ankr.com/xdc",
+        "https://rpc.xdc.org",
+        "https://rpc.xdcrpc.com"
+      ],
+      "feeModel": "standard",
+      "protocol": {
+        "endpoint": "0xcb566e3b6934fa77258d68ea18e931fa75e1aaaa",
+        "sendLibrary": "0xe1844c5d63a9543023008d332bd3d2e6f1fe1043",
+        "receiveLibrary": "0x2367325334447c5e1e0f1b3a6fb947b262f58312",
+        "blockedLibrary": "0x26463a4af811c256f669524ec2dc1ba7e7a83c37",
+        "deadDvn": "0x9c061c9a4782294eef65ef28cb88233a987f4bdd",
+        "executors": [
+          "0xa20db4ffe74a31d17fc24bd32a7dd7555441058e",
+          "0x4b80f7d25c451d204b1c93d9bdf2ab3b04f3ea4a"
+        ]
+      }
+    },
+    {
+      "id": 261131,
+      "eid": 30397,
+      "key": "zama",
+      "name": "zama",
+      "shortName": "zama",
+      "symbol": "ETH",
+      "decimals": 18,
+      "explorer": "https://explorer.mainnet.zama.org",
+      "rpcs": [],
+      "feeModel": "unreviewed",
+      "sourceRestriction": "조회 전용 · 이 체인의 수수료/트랜잭션 방식은 아직 검토하지 않아 출발 전송을 지원하지 않습니다.",
+      "protocol": {
+        "endpoint": "0x6f475642a6e85809b1c36fa62763669b1b48dd5b",
+        "sendLibrary": "0xc39161c743d0307eb9bcc9fef03eeb9dc4802de7",
+        "receiveLibrary": "0xe1844c5d63a9543023008d332bd3d2e6f1fe1043",
+        "blockedLibrary": "0xc1ce56b2099ca68720592583c7984cab4b6d7e7a",
+        "deadDvn": "0x6788f52439aca6bff597d3eec2dc9a44b8fee842",
+        "executors": [
+          "0x4208d6e27538189bb48e603d6123a94b8abe0a0b",
+          "0x41bdb4aa4a63a5b2efc531858d3118392b1a1c3d"
+        ]
+      }
+    },
+    {
+      "id": 48900,
+      "eid": 30303,
+      "key": "zircuit",
+      "name": "Zircuit Mainnet",
+      "shortName": "Zircuit Mainnet",
+      "symbol": "ETH",
+      "decimals": 18,
+      "explorer": "https://explorer.zircuit.com",
+      "rpcs": [
+        "https://mainnet.aurora.dev",
+        "https://mainnet.zircuit.com",
+        "https://zircuit1-mainnet.p2pify.com"
+      ],
+      "feeModel": "op-stack",
+      "protocol": {
+        "endpoint": "0x6f475642a6e85809b1c36fa62763669b1b48dd5b",
+        "sendLibrary": "0xc39161c743d0307eb9bcc9fef03eeb9dc4802de7",
+        "receiveLibrary": "0xe1844c5d63a9543023008d332bd3d2e6f1fe1043",
+        "blockedLibrary": "0xc1ce56b2099ca68720592583c7984cab4b6d7e7a",
+        "deadDvn": "0x9c061c9a4782294eef65ef28cb88233a987f4bdd",
+        "executors": [
+          "0xcce466a522984415bc91338c232d98869193d46e",
+          "0xa20db4ffe74a31d17fc24bd32a7dd7555441058e"
+        ]
+      }
+    },
+    {
+      "id": 324,
+      "eid": 30165,
+      "key": "zksync",
+      "name": "ZKsync Era",
+      "shortName": "ZKsync Era",
+      "symbol": "ETH",
+      "decimals": 18,
+      "explorer": "https://www.oklink.com/zksync",
+      "rpcs": [
+        "https://1rpc.io/zksync2-era",
+        "https://rpc.ankr.com/zksync_era",
+        "https://api.zan.top/zksync-mainnet"
+      ],
+      "feeModel": "unreviewed",
+      "sourceRestriction": "조회 전용 · 이 체인의 수수료/트랜잭션 방식은 아직 검토하지 않아 출발 전송을 지원하지 않습니다.",
+      "protocol": {
+        "endpoint": "0xd07c30af3ff30d96bdc9c6044958230eb797ddbf",
+        "sendLibrary": "0x07fd0e370b49919ca8da0ce842b8177263c0e12c",
+        "receiveLibrary": "0x04830f6decf08dec9ed6c3fcad215245b78a59e1",
+        "blockedLibrary": "0x0fddfc529b5912e1cbe38ccedf8e226566e596d3",
+        "deadDvn": "0x3f80157b0d0025c85f905b75b1ee2386f6daf168",
+        "executors": [
+          "0x664e390e672a811c12091db8426cbb7d68d5d8a6",
+          "0x2ce5f0d1bfcb5b86ff94c2c580ab65459e004d43"
+        ]
+      }
+    },
+    {
+      "id": 1408,
+      "eid": 30386,
+      "key": "zkverify",
+      "name": "zkVerify",
+      "shortName": "zkVerify",
+      "symbol": "VFY",
+      "decimals": 18,
+      "explorer": "https://vflow.subscan.io",
+      "rpcs": [
+        "https://vflow-rpc.zkverify.io"
+      ],
+      "feeModel": "unreviewed",
+      "sourceRestriction": "조회 전용 · 이 체인의 수수료/트랜잭션 방식은 아직 검토하지 않아 출발 전송을 지원하지 않습니다.",
+      "protocol": {
+        "endpoint": "0x6f475642a6e85809b1c36fa62763669b1b48dd5b",
+        "sendLibrary": "0xc39161c743d0307eb9bcc9fef03eeb9dc4802de7",
+        "receiveLibrary": "0xe1844c5d63a9543023008d332bd3d2e6f1fe1043",
+        "blockedLibrary": "0xc1ce56b2099ca68720592583c7984cab4b6d7e7a",
+        "deadDvn": "0x6788f52439aca6bff597d3eec2dc9a44b8fee842",
+        "executors": [
+          "0x4208d6e27538189bb48e603d6123a94b8abe0a0b",
+          "0x41bdb4aa4a63a5b2efc531858d3118392b1a1c3d"
+        ]
+      }
+    },
+    {
+      "id": 7777777,
+      "eid": 30195,
+      "key": "zora",
+      "name": "Zora",
+      "shortName": "Zora",
+      "symbol": "ETH",
+      "decimals": 18,
+      "explorer": "https://explorer.zora.energy",
+      "rpcs": [
+        "https://rpc.zora.energy/",
+        "https://rpc.zora.energy",
+        "https://zora.drpc.org"
+      ],
+      "feeModel": "op-stack",
+      "protocol": {
+        "endpoint": "0x1a44076050125825900e736c501f859c50fe728c",
+        "sendLibrary": "0xedf930cd8095548f97b21ec4e2de5455a7382f04",
+        "receiveLibrary": "0x57d9775ee8fec31f1b612a06266f599da167d211",
+        "blockedLibrary": "0x1ccbf0db9c192d969de57e25b3ff09a25bb1d862",
+        "deadDvn": "0x08ab92e05ba1dec2c5bb876caa0af60caede1d17",
+        "executors": [
+          "0x4f8b7a7a346da5c467085377796e91220d904c15",
+          "0x1ace9dd1bc743ad036ef2d92af42ca70a1159df5"
+        ]
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "key": "adi",
+      "id": null,
+      "reason": "missing/duplicate mainnet identity"
+    },
+    {
+      "key": "anubis",
+      "id": 6714,
+      "reason": "incomplete ULN302 deployment"
+    },
+    {
+      "key": "bahamut",
+      "id": 5165,
+      "reason": "chainStatus=DEPRECATED"
+    },
+    {
+      "key": "bb1",
+      "id": 2525,
+      "reason": "chainStatus=DEPRECATED"
+    },
+    {
+      "key": "bevm",
+      "id": 11501,
+      "reason": "chainStatus=DEPRECATED"
+    },
+    {
+      "key": "bitlayer",
+      "id": 200901,
+      "reason": "chainStatus=DEPRECATED"
+    },
+    {
+      "key": "bl4",
+      "id": null,
+      "reason": "chainStatus=PRIVATE"
+    },
+    {
+      "key": "bl5",
+      "id": null,
+      "reason": "chainStatus=PRIVATE"
+    },
+    {
+      "key": "bob",
+      "id": 60808,
+      "reason": "incomplete ULN302 deployment"
+    },
+    {
+      "key": "botanix",
+      "id": 3637,
+      "reason": "chainStatus=DEPRECATED"
+    },
+    {
+      "key": "bouncebit",
+      "id": 6001,
+      "reason": "chainStatus=DEPRECATED"
+    },
+    {
+      "key": "canto",
+      "id": 7700,
+      "reason": "chainStatus=DEPRECATED"
+    },
+    {
+      "key": "concrete",
+      "id": 12739,
+      "reason": "chainStatus=DEPRECATED"
+    },
+    {
+      "key": "converge",
+      "id": 432,
+      "reason": "chainStatus=DEPRECATED"
+    },
+    {
+      "key": "cronoszkevm",
+      "id": 388,
+      "reason": "chainStatus=DEPRECATED"
+    },
+    {
+      "key": "cyber",
+      "id": 7560,
+      "reason": "chainStatus=DEPRECATED"
+    },
+    {
+      "key": "degen",
+      "id": 666666666,
+      "reason": "chainStatus=DEPRECATED"
+    },
+    {
+      "key": "dfk",
+      "id": 53935,
+      "reason": "chainStatus=DEPRECATED"
+    },
+    {
+      "key": "dm2verse",
+      "id": 68770,
+      "reason": "chainStatus=PRIVATE"
+    },
+    {
+      "key": "dos",
+      "id": 7979,
+      "reason": "chainStatus=DEPRECATED"
+    },
+    {
+      "key": "ebi",
+      "id": 98881,
+      "reason": "chainStatus=DEPRECATED"
+    },
+    {
+      "key": "edu",
+      "id": 41923,
+      "reason": "chainStatus=DEPRECATED"
+    },
+    {
+      "key": "eon",
+      "id": 7332,
+      "reason": "chainStatus=DEPRECATED"
+    },
+    {
+      "key": "glue",
+      "id": 1300,
+      "reason": "chainStatus=DEPRECATED"
+    },
+    {
+      "key": "hashkey",
+      "id": 177,
+      "reason": "incomplete ULN302 deployment"
+    },
+    {
+      "key": "hedera",
+      "id": 295,
+      "reason": "special native unit requires separate implementation"
+    },
+    {
+      "key": "homeverse",
+      "id": 19011,
+      "reason": "chainStatus=DEPRECATED"
+    },
+    {
+      "key": "hubble",
+      "id": 1992,
+      "reason": "chainStatus=DEPRECATED"
+    },
+    {
+      "key": "intain",
+      "id": null,
+      "reason": "chainStatus=DEPRECATED"
+    },
+    {
+      "key": "loot",
+      "id": 5151706,
+      "reason": "chainStatus=DEPRECATED"
+    },
+    {
+      "key": "masa",
+      "id": 13396,
+      "reason": "chainStatus=DEPRECATED"
+    },
+    {
+      "key": "memecore",
+      "id": 4352,
+      "reason": "incomplete ULN302 deployment"
+    },
+    {
+      "key": "meter",
+      "id": 82,
+      "reason": "chainStatus=DEPRECATED"
+    },
+    {
+      "key": "moonbeam",
+      "id": 1284,
+      "reason": "chainStatus=DEPRECATED"
+    },
+    {
+      "key": "moonriver",
+      "id": 1285,
+      "reason": "chainStatus=DEPRECATED"
+    },
+    {
+      "key": "mp1",
+      "id": 21000000,
+      "reason": "chainStatus=DEPRECATED"
+    },
+    {
+      "key": "nexera",
+      "id": 7208,
+      "reason": "chainStatus=DEPRECATED"
+    },
+    {
+      "key": "nova",
+      "id": 42170,
+      "reason": "chainStatus=DEPRECATED"
+    },
+    {
+      "key": "okx",
+      "id": 66,
+      "reason": "chainStatus=DEPRECATED"
+    },
+    {
+      "key": "opn",
+      "id": 222,
+      "reason": "incomplete ULN302 deployment"
+    },
+    {
+      "key": "pgn",
+      "id": 424,
+      "reason": "chainStatus=DEPRECATED"
+    },
+    {
+      "key": "pharos",
+      "id": 1672,
+      "reason": "missing HTTPS explorer"
+    },
+    {
+      "key": "plume",
+      "id": 98865,
+      "reason": "chainStatus=DEPRECATED"
+    },
+    {
+      "key": "rarible",
+      "id": 1380012617,
+      "reason": "chainStatus=DEPRECATED"
+    },
+    {
+      "key": "real",
+      "id": 111188,
+      "reason": "chainStatus=DEPRECATED"
+    },
+    {
+      "key": "sagaevm",
+      "id": 5464,
+      "reason": "chainStatus=DEPRECATED"
+    },
+    {
+      "key": "sanko",
+      "id": 1996,
+      "reason": "chainStatus=DEPRECATED"
+    },
+    {
+      "key": "sepolia",
+      "id": 11155111,
+      "reason": "incomplete ULN302 deployment"
+    },
+    {
+      "key": "shimmer",
+      "id": 148,
+      "reason": "chainStatus=DEPRECATED"
+    },
+    {
+      "key": "shrapnel",
+      "id": 2044,
+      "reason": "chainStatus=DEPRECATED"
+    },
+    {
+      "key": "silicon",
+      "id": 2355,
+      "reason": "chainStatus=DEPRECATED"
+    },
+    {
+      "key": "skale",
+      "id": 2046399126,
+      "reason": "chainStatus=DEPRECATED"
+    },
+    {
+      "key": "sophon",
+      "id": 50104,
+      "reason": "chainStatus=DEPRECATED"
+    },
+    {
+      "key": "swell",
+      "id": 1923,
+      "reason": "chainStatus=DEPRECATED"
+    },
+    {
+      "key": "swimmer",
+      "id": 0,
+      "reason": "chainStatus=DEPRECATED"
+    },
+    {
+      "key": "tempo",
+      "id": 4217,
+      "reason": "special native unit requires separate implementation"
+    },
+    {
+      "key": "tenet",
+      "id": 1559,
+      "reason": "chainStatus=DEPRECATED"
+    },
+    {
+      "key": "tiltyard",
+      "id": 710420,
+      "reason": "chainStatus=DEPRECATED"
+    },
+    {
+      "key": "xchain",
+      "id": 94524,
+      "reason": "chainStatus=DEPRECATED"
+    },
+    {
+      "key": "zkatana",
+      "id": 3776,
+      "reason": "chainStatus=DEPRECATED"
+    },
+    {
+      "key": "zklink",
+      "id": 810180,
+      "reason": "chainStatus=DEPRECATED"
+    },
+    {
+      "key": "zkevm",
+      "id": 1101,
+      "reason": "chainStatus=DEPRECATED"
+    }
+  ]
+}

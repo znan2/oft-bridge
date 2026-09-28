@@ -1,0 +1,50 @@
+# dependencies / build output
+node_modules/
+dist/
+coverage/
+.local/
+playwright-report/
+test-results/
+
+# secrets: env files, keys, keystores, wallets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+*.keystore
+keystore/
+keystores/
+UTC--*
+*mnemonic*
+*seed-phrase*
+wallet*.json
+auth.json
+credentials*
+
+# logs / runtime data
+*.log
+logs/
+*.db
+*.sqlite
+*.sqlite3
+.oft-bridge/
+
+# local-only audit report (may reference sensitive locations)
+SECURITY_AUDIT.md
+PORTFOLIO_NOTES.md
+
+# local-only evidence of real mainnet transfers (wallet address, tx hashes).
+# Public tests use anonymized copies in tests/fixtures/.
+docs/milestones/
+docs/reviews/
+docs/examples/
+docs/MILESTONE_STATUS.md
+docs/USER_GUIDE.md
+scripts/check-m5-live.ts
+scripts/check-readiness.ts
+
+# OS
+.DS_Store

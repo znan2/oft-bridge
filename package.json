@@ -1,0 +1,48 @@
+{
+  "name": "oft-bridge",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/run.mjs dev",
+    "build": "node scripts/run.mjs build",
+    "build:demo": "node scripts/run.mjs build:demo",
+    "verify:demo": "node scripts/verify-demo.mjs",
+    "start": "node scripts/run.mjs start",
+    "test": "node scripts/run.mjs test",
+    "typecheck": "node scripts/run.mjs typecheck",
+    "check:live": "node scripts/run.mjs check:live",
+    "check:m2": "node scripts/run.mjs check:m2",
+    "check:m3": "node scripts/run.mjs check:m3",
+    "check:m4": "node scripts/run.mjs check:m4",
+    "check:receive": "node scripts/run.mjs check:receive",
+    "check:m5:local": "node scripts/run.mjs check:m5:local",
+    "check:m7": "node scripts/run.mjs check:m7"
+  },
+  "dependencies": {
+    "@hono/node-server": "2.1.1",
+    "@tanstack/react-query": "5.102.8",
+    "hono": "4.13.7",
+    "lucide-react": "1.41.0",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "viem": "2.56.3",
+    "wagmi": "3.7.7"
+  },
+  "devDependencies": {
+    "@testing-library/react": "16.3.3",
+    "@testing-library/user-event": "14.6.7",
+    "@types/node": "26.4.1",
+    "@types/react": "19.2.18",
+    "@types/react-dom": "19.2.7",
+    "@vitejs/plugin-react": "6.1.1",
+    "fake-indexeddb": "6.2.5",
+    "jsdom": "30.0.1",
+    "playwright": "1.63.0",
+    "tsx": "4.23.13",
+    "typescript": "7.0.2",
+    "vite": "8.2.2",
+    "vitest": "5.0.0"
+  }
+}

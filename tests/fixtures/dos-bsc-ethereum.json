@@ -1,0 +1,128 @@
+{
+  "purpose": "Historical decoding reference; never broadcast or reuse the fee for a new transaction. Public addresses are historical participants, not configured user recipients.",
+  "observedAtUTC": "2026-07-14T22:11:43.721809+00:00",
+  "decoderUrl": "https://bscscan.com/inputdatadecoder",
+  "sources": {
+    "bscTransaction": "https://bscscan.com/tx/0xb1331b076af395daeca4a2804e05b6d4e1df2493507ddfc82382b32a4c4b1631",
+    "ethereumTransaction": "https://etherscan.io/tx/0xa5305de7de451c3fc911cfeb525ca38c5b841193d79c62a50e2b76fa6d36b158",
+    "layerZeroMessage": "https://scan.layerzero-api.com/v1/messages/tx/0xb1331b076af395daeca4a2804e05b6d4e1df2493507ddfc82382b32a4c4b1631",
+    "bscRpc": "https://bsc-rpc.publicnode.com",
+    "ethereumRpc": "https://ethereum-rpc.publicnode.com",
+    "ethereumVerifiedContract": "https://etherscan.io/address/0xb0f09ea9ae0515c3551080d4a745c8115aa30e37#code"
+  },
+  "transaction": {
+    "hash": "0xb1331b076af395daeca4a2804e05b6d4e1df2493507ddfc82382b32a4c4b1631",
+    "chainId": "0x38",
+    "blockNumber": "0x6483121",
+    "from": "0xa11ce00000000000000000000000000000000001",
+    "to": "0xb0f09ea9ae0515c3551080d4a745c8115aa30e37",
+    "value": "0x29eeff0339510",
+    "input": "0xc7c7f5b3000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000029eeff03395100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a11ce000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000007595000000000000000000000000a11ce00000000000000000000000000000000001000000000000000000000000000000000000000000000017b097e0acbdb40000000000000000000000000000000000000000000000000017b097e0acbdb4000000000000000000000000000000000000000000000000000000000000000000e000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000120000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "decodedSend": {
+    "selector": "0xc7c7f5b3",
+    "transactionTo": "0xb0f09ea9ae0515c3551080d4a745c8115aa30e37",
+    "from": "0xa11ce00000000000000000000000000000000001",
+    "valueWei": "737703317706000",
+    "valueBNB": "0.000737703317706",
+    "sendParam": {
+      "dstEid": 30101,
+      "to": "0x000000000000000000000000a11ce00000000000000000000000000000000001",
+      "amountLD": "437000000000000000000",
+      "minAmountLD": "437000000000000000000",
+      "extraOptions": "0x",
+      "composeMsg": "0x",
+      "oftCmd": "0x"
+    },
+    "fee": {
+      "nativeFee": "737703317706000",
+      "lzTokenFee": "0"
+    },
+    "refundAddress": "0xa11ce00000000000000000000000000000000001"
+  },
+  "layerZero": {
+    "guid": "0xf745a1b214287c56003e914012c5da565244475e3bf42ec9a7d91a2dc7550204",
+    "nonce": 7778546,
+    "srcEid": 30102,
+    "dstEid": 30101,
+    "status": "DELIVERED",
+    "sourceStatus": "SUCCEEDED",
+    "destinationStatus": "SUCCEEDED",
+    "sourceBlockNumber": "105394465",
+    "sourceTimestampUTC": "2026-06-18T23:34:12+00:00",
+    "destinationTransactionHash": "0xa5305de7de451c3fc911cfeb525ca38c5b841193d79c62a50e2b76fa6d36b158",
+    "destinationBlockNumber": 15853662,
+    "destinationTimestampUTC": "2026-06-18T23:34:58+00:00",
+    "effectiveSourceOptions": {
+      "lzReceive": {
+        "gas": "100000",
+        "value": "0"
+      },
+      "ordered": false
+    },
+    "payload": "0x000000000000000000000000a11ce00000000000000000000000000000000001000000001a0c1740",
+    "amountSD": "437000000"
+  },
+  "destinationReceiptEvidence": {
+    "source": "Ethereum explorer decoded Transfer and OFTReceived logs",
+    "tokenAddress": "0x951f086a127e280724fd93ccc543f65065afeb5e",
+    "symbol": "DOS",
+    "amount": "437",
+    "amountReceivedLD": "437000000000000000000",
+    "recipient": "0xa11ce00000000000000000000000000000000001",
+    "guid": "0xf745a1b214287c56003e914012c5da565244475e3bf42ec9a7d91a2dc7550204"
+  },
+  "currentContractReads": {
+    "bsc": {
+      "blockTag": "latest",
+      "blockNumberObservedInSameBatch": 110373119,
+      "atomicSnapshot": false,
+      "chainId": 56,
+      "bridgeAddress": "0xb0f09ea9ae0515c3551080d4a745c8115aa30e37",
+      "token": "0xb0f09ea9ae0515c3551080d4a745c8115aa30e37",
+      "approvalRequired": false,
+      "localDecimals": 18,
+      "sharedDecimals": 6,
+      "oftInterfaceId": "0x02e49c2c",
+      "oftMessageVersion": 1,
+      "enforcedOptions": {
+        "dstEid": 30101,
+        "messageType": 1,
+        "bytes": "0x000301002101000000000000000000000000000186a000000000000000000000000000000000",
+        "lzReceiveGas": "100000",
+        "lzReceiveValue": "0"
+      }
+    },
+    "eth": {
+      "blockTag": "latest",
+      "blockNumberObservedInSameBatch": 16039784,
+      "atomicSnapshot": false,
+      "chainId": 1,
+      "bridgeAddress": "0xb0f09ea9ae0515c3551080d4a745c8115aa30e37",
+      "token": "0x951f086a127e280724fd93ccc543f65065afeb5e",
+      "approvalRequired": true,
+      "localDecimals": 18,
+      "sharedDecimals": 6,
+      "oftInterfaceId": "0x02e49c2c",
+      "oftMessageVersion": 1,
+      "enforcedOptions": {
+        "dstEid": 30102,
+        "messageType": 1,
+        "bytes": "0x000301002101000000000000000000000000000186a000000000000000000000000000000000",
+        "lzReceiveGas": "100000",
+        "lzReceiveValue": "0"
+      }
+    }
+  },
+  "verification": {
+    "selectorMatchesStandardSend": true,
+    "abiDecodeEncodeRoundTripMatchesInput": true,
+    "sourceDestinationLinkedByScan": true,
+    "payloadRecipientAndSharedAmountMatch": true
+  },
+  "limitations": [
+    "BscScan HTTP fetch returned 403; raw source transaction read through RPC.",
+    "Public BSC RPC rejected historical receipt retrieval; source success confirmed by LayerZero Scan.",
+    "Metadata getters are current latest-state reads; they do not prove historical state or current full pathway readiness."
+  ]
+}
